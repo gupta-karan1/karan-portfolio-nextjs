@@ -2,7 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.heroBg {
+  background-color: #171212;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #171212 54px
+    ),
+    repeating-linear-gradient(#18342b55, #18342b);
+  background-attachment: fixed;
+}
+
+/* Remove display of any scroll bars */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +42,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
