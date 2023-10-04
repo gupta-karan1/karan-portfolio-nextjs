@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ProjectGrid from "@/components/ProjectGrid";
+import { homeProjects } from "@/constants";
 
 function SelectedProjects() {
   return (
@@ -10,7 +11,7 @@ function SelectedProjects() {
         Selected Works
       </h2>
 
-      <ProjectGrid />
+      <ProjectGrid projects={homeProjects} />
 
       <Link href="/work" className="btn btn-outline btn-lg">
         Show All Projects{" "}
