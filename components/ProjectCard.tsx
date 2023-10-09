@@ -13,7 +13,7 @@ const ProjectCard = ({
   tags,
 }: typeof ProjectCardTypes) => {
   return (
-    <div className="card w-auto lg:w-96  bg-base-300 shadow-xl hover:bg-base-100 ease-in-out">
+    <div className="card w-auto lg:w-96  bg-base-300 shadow-xl hover:bg-neutral-focus ease-in-out ">
       <figure>
         <Link href={link}>
           <Image
@@ -64,7 +64,7 @@ const ProjectCard = ({
 
           {link && (
             <Link className="btn btn-primary btn-sm" href={link}>
-              Explore{" "}
+              Explore
             </Link>
           )}
         </div>

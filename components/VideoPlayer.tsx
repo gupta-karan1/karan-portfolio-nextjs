@@ -4,15 +4,17 @@ function VideoPlayer({
   source,
   width,
   height,
+  auto,
 }: {
   source: string;
   width: string;
   height: string;
+  auto?: boolean;
 }) {
   return (
     <video
       controls
-      autoPlay
+      autoPlay={auto}
       loop
       muted
       width={width}

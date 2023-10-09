@@ -107,6 +107,16 @@ export const testimonials = [
 
 export const homeProjects = [
   {
+    title: "ANA Business Website",
+    description:
+      "Portfolio cum Business website for a 26 year old Architecture, Engineering & Construction Consultancy firm helping them to showcase their work and services by establishing them as thought leaders.",
+    image: "/project-placeholder.png",
+    link: "/work/ana-design-website",
+    // github: "https://github.com",
+    demo: "https://ana-design.com/",
+    tags: ["ux ui", "branding", "wordpress"],
+  },
+  {
     title: "Away Travel App",
     description:
       "Group travel planning mobile app that allows travel enthusiasts to explore places, create trips, invite friends, build itinerary, and plan activities together.",
@@ -115,16 +125,6 @@ export const homeProjects = [
     github: "https://github.com/gupta-karan1/AwayApp",
     // demo: "https://google.com",
     tags: ["react native", "ux ui", "branding"],
-  },
-  {
-    title: "ANA Business Website",
-    description:
-      "Portfolio cum Business website for a 26 year old Architecture, Engineering & Construction Consultancy firm helping them to showcase their work and services by establishing them as thought leaders.",
-    image: "/project-placeholder.png",
-    link: "/work/ana-design-website",
-    // github: "https://github.com",
-    demo: "https://ana-design.com/",
-    tags: ["ux ui", "branding", "wordpress", "seo"],
   },
   {
     title: "Stone Bakery Website",
@@ -141,16 +141,6 @@ export const homeProjects = [
 export const allProjects = [
   ...homeProjects,
   {
-    title: "Away Travel App",
-    description:
-      "Group travel planning mobile app that allows travel enthusiasts to explore places, create trips, invite friends, build itinerary, and plan activities together.",
-    image: "/project-placeholder.png",
-    link: "/work/away-travel-app",
-    github: "https://github.com/gupta-karan1/AwayApp",
-    // demo: "https://google.com",
-    tags: ["react native", "ux ui", "branding"],
-  },
-  {
     title: "ANA Business Website",
     description:
       "Portfolio cum Business website for a 26 year old Architecture, Engineering & Construction Consultancy firm helping them to showcase their work and services by establishing them as thought leaders.",
@@ -159,6 +149,16 @@ export const allProjects = [
     // github: "https://github.com",
     demo: "https://ana-design.com/",
     tags: ["ux ui", "branding", "wordpress", "seo"],
+  },
+  {
+    title: "Away Travel App",
+    description:
+      "Group travel planning mobile app that allows travel enthusiasts to explore places, create trips, invite friends, build itinerary, and plan activities together.",
+    image: "/project-placeholder.png",
+    link: "/work/away-travel-app",
+    github: "https://github.com/gupta-karan1/AwayApp",
+    // demo: "https://google.com",
+    tags: ["react native", "ux ui", "branding"],
   },
   {
     title: "Stone Bakery Website",

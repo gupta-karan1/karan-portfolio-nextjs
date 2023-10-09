@@ -21,7 +21,11 @@ function Hero() {
         </a>
       </div>
       <div className="xl:col-span-8 ">
-        <VideoPlayer source="/ana-recording-hd.mp4" width="1000" height="900" />
+        <VideoPlayer
+          source="/assets/ana-recording-hd.mp4"
+          width="300"
+          height="600"
+        />
       </div>
     </section>
   );

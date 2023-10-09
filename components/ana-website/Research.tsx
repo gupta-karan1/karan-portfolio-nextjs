@@ -58,12 +58,12 @@ function Research() {
 
       {researchData.map((data, index) => (
         <div
-          className={`card lg:card-side w-full bg-neutral mt-10  ${
+          className={`card lg:card-side w-8/12 bg-neutral mt-10  ${
             active === index ? "" : "hidden"
           }`}
           key={index}
         >
-          <figure className="lg:w-8/12 w-full">
+          <figure className="w-full">
             <Image
               src={data.image}
               alt={data.title}
@@ -72,7 +72,7 @@ function Research() {
             />
           </figure>
 
-          <div className="card-body lg:w-96">
+          <div className="card-body lg:w-6/12">
             <h2 className="card-title">{data.title}</h2>
             <p>{data.content}</p>
           </div>
