@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const ProjectGrid = ({ projects }: { projects: Array<any> }) => {
   return (
-    <div className="flex flex-wrap gap-10 items-center justify-center">
+    <div className="flex flex-wrap lg:gap-20 gap-10 items-center justify-center">
       {projects.map((project) => (
         <ProjectCard
           key={project.title}

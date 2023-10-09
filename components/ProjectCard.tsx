@@ -13,7 +13,7 @@ const ProjectCard = ({
   tags,
 }: typeof ProjectCardTypes) => {
   return (
-    <div className="card w-auto lg:w-96 bg-base-300 shadow-xl hover:bg-base-100 ease-in-out">
+    <div className="card w-auto lg:w-96  bg-base-300 shadow-xl hover:bg-base-100 ease-in-out">
       <figure>
         <Link href={link}>
           <Image
@@ -24,11 +24,7 @@ const ProjectCard = ({
           />
         </Link>
       </figure>
-      <div className="card-body">
-        <h2 className="card-title font-semibold text-2xl line-clamp-1">
-          {title}
-        </h2>
-
+      <div className="card-body gap-3 lg:h-80">
         <div className="flex flex-wrap gap-1">
           {tags.map((tag: string) => (
             <span key={tag} className="badge font-light badge-secondary  ">
@@ -37,17 +33,31 @@ const ProjectCard = ({
           ))}
         </div>
 
-        <p className="font-light line-clamp-5">{description}</p>
+        <h2 className="card-title font-semibold text-2xl line-clamp-1">
+          {title}
+        </h2>
+
+        <p className="font-light line-clamp-5 text-sm">{description}</p>
 
         <div className="card-actions justify-end mt-5">
           {demo && (
-            <Link className="btn btn-primary btn-ghost btn-sm" href={demo}>
+            <Link
+              className="btn btn-primary btn-ghost btn-sm"
+              href={demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Live <LinkArrow />
             </Link>
           )}
 
           {github && (
-            <Link className="btn btn-primary btn-ghost btn-sm" href={github}>
+            <Link
+              className="btn btn-primary btn-ghost btn-sm"
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github <LinkArrow />
             </Link>
           )}
@@ -55,18 +65,6 @@ const ProjectCard = ({
           {link && (
             <Link className="btn btn-primary btn-sm" href={link}>
               Explore{" "}
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-                  clipRule="evenodd"
-                />
-              </svg> */}
             </Link>
           )}
         </div>

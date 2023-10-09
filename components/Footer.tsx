@@ -4,7 +4,7 @@ import LinkArrow from "./LinkArrow";
 
 const Footer = () => {
   return (
-    <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+    <footer className="footer items-center p-4 bg-neutral-focus text-neutral-content">
       <aside className="items-center grid-flow-col">
         <svg
           width="36"

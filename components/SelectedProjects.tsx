@@ -13,8 +13,8 @@ function SelectedProjects() {
 
       <ProjectGrid projects={homeProjects} />
 
-      <Link href="/work" className="btn btn-outline btn-lg">
-        Show All Projects{" "}
+      <Link href="/work" className="btn btn-outline ">
+        Show All{" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

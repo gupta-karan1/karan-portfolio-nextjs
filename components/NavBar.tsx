@@ -1,10 +1,34 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LinkArrow from "./LinkArrow";
 
 const NavBar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(
+        prevScrollPos > currentScrollPos ||
+          currentScrollPos < 10 ||
+          currentScrollPos === 0
+      );
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos, visible]);
   return (
-    <div className="navbar z-50 fixed bg-base-100 bg-opacity-60">
+    <div
+      className={`navbar z-50 fixed bg-base-100 bg-opacity-60 ${
+        visible ? "" : "hidden"
+      }`}
+    >
       {/* Menu on Small Screens */}
       <div className="navbar-start">
         <div className="drawer drawer-end lg:hidden">
@@ -85,9 +109,9 @@ const NavBar = () => {
           </div>
         </div>
 
-        {/* <Link href="/" className="btn btn-ghost normal-case text-xl">
+        <Link href="/" className="btn btn-ghost normal-case text-xl">
           Karan
-        </Link> */}
+        </Link>
       </div>
 
       {/* Menu on large screens */}
