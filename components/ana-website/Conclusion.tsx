@@ -41,10 +41,7 @@ function Conclusion() {
 
       <div className="grid lg:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-5">
         {conclusionData.map((data, index) => (
-          <div
-            className="card w-full h-full bg-neutral hover:bg-neutral-focus "
-            key={index}
-          >
+          <div className="card w-full h-full bg-neutral " key={index}>
             <div className="card-body">
               {data.icon}
               <h2 className="card-title ">{data.title}</h2>

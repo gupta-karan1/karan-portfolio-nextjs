@@ -13,7 +13,7 @@ const ProjectCard = ({
   tags,
 }: typeof ProjectCardTypes) => {
   return (
-    <div className="card w-auto lg:w-96  bg-base-300 shadow-xl hover:bg-neutral-focus ease-in-out ">
+    <div className="card w-auto lg:w-96  bg-base-300 shadow-xl ">
       <figure>
         <Link href={link}>
           <Image

@@ -6,6 +6,13 @@ import Research from "@/components/ana-website/Research";
 import Design from "@/components/ana-website/Design";
 import ProjectFooter from "@/components/ProjectFooter";
 import Conclusion from "@/components/ana-website/Conclusion";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ANA Website - Karan - Portfolio",
+  description:
+    "Karan Gupta - Portfolio Website - UX Designer & Developer - Dublin, Ireland",
+};
 
 function AnaWebsiteProject() {
   return (

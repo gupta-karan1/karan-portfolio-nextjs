@@ -8,7 +8,7 @@ const contextData = [
   {
     title: "Why was it necessary?",
     content:
-      "It was the COVID-10 pandemic that motivated ANA to focus on their digital presence to attract more clients and to hire skilled employees for future projects. The existing website was outdated and did not reflect the firm's current capabilities. It was also not optimized for mobile devices. The website was not generating any leads and was not helping in brand awareness. They wanted to establish themselves as a thought leader in the industry and wanted to showcase their work to attract more clients.",
+      "It was the COVID-19 pandemic that motivated ANA to focus on their digital presence to attract more clients and to hire skilled employees for future projects. The existing website was outdated and did not reflect the firm's current capabilities. It was also not optimized for mobile devices. The website was not generating any leads and was not helping in brand awareness. They wanted to establish themselves as a thought leader in the industry and wanted to showcase their work to attract more clients.",
   },
   {
     title: "Who were the stakeholders?",

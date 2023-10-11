@@ -20,7 +20,7 @@ function VideoPlayer({
       width={width}
       height={height}
       className="rounded-3xl shadow-2xl object-fill object-center border-4 border-primary"
-      controlsList="nodownload"
+      controlsList="nodownload nofullscreen noremoteplayback"
     >
       <source src={source} type="video/mp4" />
       Your browser does not support the video tag.

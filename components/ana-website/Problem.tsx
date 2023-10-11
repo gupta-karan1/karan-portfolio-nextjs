@@ -27,10 +27,7 @@ function Problem() {
       <h1 className="text-6xl mb-10">Problem</h1>
       <div className="flex gap-10 flex-wrap justify-center items-start">
         {problemData.map((data, index) => (
-          <div
-            className="card w-96 bg-neutral hover:bg-neutral-focus "
-            key={index}
-          >
+          <div className="card w-96 bg-neutral " key={index}>
             <figure>
               {" "}
               <Image

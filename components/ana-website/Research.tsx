@@ -58,7 +58,7 @@ function Research() {
 
       {researchData.map((data, index) => (
         <div
-          className={`card lg:card-side w-8/12 bg-neutral mt-10  ${
+          className={`card lg:card-side w-10/12 bg-neutral mt-10  ${
             active === index ? "" : "hidden"
           }`}
           key={index}

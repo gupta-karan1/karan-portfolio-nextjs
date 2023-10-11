@@ -1,3 +1,4 @@
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
 const designData = [
@@ -43,6 +44,7 @@ function Design() {
           <div
             className="carousel-item bg-transparent flex flex-col gap-2"
             key={index}
+            id={`carousel-item-${index}`}
           >
             <Image
               src={data.image}

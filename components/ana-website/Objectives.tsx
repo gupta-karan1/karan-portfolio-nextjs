@@ -40,7 +40,7 @@ function Objectives() {
       <div className="grid lg:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-10">
         {objectiveData.map((data, index) => (
           <div
-            className="card w-80 h-80 bg-primary text-primary-content hover:bg-primary-focus hover:text-primary-focus-content transition-shadow duration-300 ease-in-out"
+            className="card w-80 h-80 bg-primary text-primary-content shadow-lg shadow-primary-focus"
             key={index}
           >
             <div className="card-body">
