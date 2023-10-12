@@ -5,6 +5,10 @@ import Problem from "@/components/away-app/Problem";
 
 import { Metadata } from "next";
 import Research from "@/components/away-app/Research";
+import Design from "@/components/away-app/Design";
+import Development from "@/components/away-app/Development";
+import Conclusion from "@/components/away-app/Conclusion";
+import ProjectFooter from "@/components/ProjectFooter";
 
 export const metadata: Metadata = {
   title: "Away App - Karan - Portfolio",
@@ -22,15 +26,12 @@ function page() {
       <Objectives />
 
       <Research />
-      <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-100 flex flex-col items-center justify-center gap-5">
-        <h1 className="text-6xl mb-10">Design</h1>
-      </section>
-      <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-300 flex flex-col items-center justify-center gap-5">
-        <h1 className="text-6xl mb-10">Development</h1>
-      </section>
-      <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-100 flex flex-col items-center justify-center gap-5">
-        <h1 className="text-6xl mb-10">Conclusion</h1>
-      </section>
+      <Design />
+      <Development />
+
+      <Conclusion />
+
+      <ProjectFooter />
     </main>
   );
 }

@@ -228,10 +228,11 @@ function CompetitiveAnalysis() {
                     freemium travel guide or planner
                   </li>
                   <li>
-                    but actually a travel agency selling trip plans and packages
+                    But actually a travel agency selling trip plans and
+                    packages,
                   </li>
                   <li>
-                    landing pages and the explore sections provide an impressive
+                    Landing pages and the explore sections provide an impressive
                     quality of travel guides
                   </li>
                 </ul>
@@ -243,15 +244,15 @@ function CompetitiveAnalysis() {
                   <li>
                     For the first time, it is easy to discover all the features
                     since they are all presented as empty states on the same
-                    screens
+                    screens,
                   </li>
                   <li>
                     {" "}
                     Helpful to have a better onboarding and instructions design
-                    to understand the app's capabilities
+                    to understand the app's capabilities,
                   </li>
                   <li>
-                    only app that has a chat feature but difficult to discover
+                    Only app that has a chat feature but difficult to discover
                     it.
                   </li>
                 </ul>
@@ -426,22 +427,20 @@ function CompetitiveAnalysis() {
               <td>
                 <ul>
                   <li>
-                    {" "}
-                    the bright greens, trendy flat illustrations, casual tone of
+                    The bright greens, trendy flat illustrations, casual tone of
                     voice, and magnificent imagery indicates that the product
-                    targets younger generations
+                    targets younger generations,
                   </li>
                   <li>
-                    minimal layout and visual distinction between the various UI
-                    elements for better contrast and accessibility
+                    Minimal layout and visual distinction between the various UI
+                    elements for better contrast and accessibility,
                   </li>
                   <li>
-                    {" "}
-                    the elements are huge & easily clickable, we feel that some
-                    of them are unnecessarily oversized
+                    The elements are huge & easily clickable, we feel that some
+                    of them are unnecessarily oversized,
                   </li>
                   <li>
-                    white text overlaid on images causes legibility issues
+                    White text overlaid on images causes legibility issues
                   </li>
                 </ul>
               </td>
@@ -450,23 +449,23 @@ function CompetitiveAnalysis() {
               <td>
                 <ul>
                   <li>
-                    Hasn’t got a strong brand identity even when it employs a
-                    single brand colour
+                    Hasn't got a strong brand identity even when it employs a
+                    single brand color,
                   </li>
                   <li>
                     There are inconsistencies in layout (portrait and landscape
-                    images)
+                    images),
                   </li>
                   <li>
                     Use of high quality travel images and very high proportion
-                    of layout given to images
+                    of layout given to images,
                   </li>
                   <li>
                     Clear hierarchy in typography but the small label text has
-                    accessibility issues
+                    accessibility issues,
                   </li>
                   <li>
-                    Iconography is a bit inconsistent with multiple styles
+                    Iconography is a bit inconsistent with multiple styles.
                   </li>
                 </ul>
               </td>
@@ -522,20 +521,20 @@ function CompetitiveAnalysis() {
                   </li>
                   <li>
                     Only allows users to save the guide articles and do nothing
-                    beyond that
+                    beyond that,
                   </li>
                   <li>
-                    {" "}
                     We will have features for the complete cycle of group trip
-                    planning instead of simply providing information as articles
+                    planning instead of simply providing information as
+                    articles,
                   </li>
                   <li>
                     We will take extra care of accessibility wherever two or
-                    more media elements overlap
+                    more media elements overlap,
                   </li>
                   <li>
                     We will have a clear hierarchy and use the right sizes of UI
-                    elements from material design guidelines
+                    elements from material design guidelines,
                   </li>
                   <li>Inspired by the categorization of the guide articles </li>
                 </ul>
@@ -555,7 +554,7 @@ function CompetitiveAnalysis() {
                   <li>
                     Useful to store the documents, photos, bookings, notes,
                     lists, and expenses but fails at providing the primary
-                    functions
+                    functions,
                   </li>
                   <li>
                     Prioritize on creating a seamless experience with providing
