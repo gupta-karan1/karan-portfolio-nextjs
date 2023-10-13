@@ -31,12 +31,12 @@ const NavBar = () => {
 
   return (
     <div
-      className={`navbar z-50 fixed bg-base-100 bg-opacity-80  ${
+      className={`navbar z-50 fixed m-0 bg-base-100   ${
         visible ? "" : "hidden"
       }`}
     >
       <div className="flex-1">
-        <Link href="/" className="btn btn-ghost normal-case text-xl">
+        <Link href="/" className="btn btn-success normal-case text-xl">
           <code>
             <span className="text-2xl">{"<"}</span>
             <span className="text-2xl">Karan</span>
@@ -45,25 +45,25 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="flex-none">
-        <div className="drawer drawer-end ">
+        <div className="drawer drawer-end  ">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
             {/* Page content here */}
             <label
               htmlFor="my-drawer-4"
-              className="drawer-button btn btn-outline btn-circle"
+              className="drawer-button btn btn-success btn-circle"
             >
               <Bars3CenterLeftIcon className="w-5 h-5" />
             </label>
           </div>
 
-          <div className="drawer-side">
+          <div className="drawer-side ">
             <label
               htmlFor="my-drawer-4"
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu p-4 w-9/12 lg:w-4/12 min-h-full bg-neutral text-base-content gap-5  ">
+            <ul className="menu w-9/12 lg:w-4/12 min-h-full bg-success  gap-5 text-primary-content rounded-3xl lg:rounded-b-full  ">
               <li className="self-end ">
                 <label
                   htmlFor="my-drawer-4"
