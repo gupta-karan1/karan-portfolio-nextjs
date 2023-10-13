@@ -110,7 +110,7 @@ export const homeProjects = [
     title: "ANA Business Website",
     description:
       "Portfolio cum Business website for a 26 year old Architecture, Engineering & Construction Consultancy firm helping them to showcase their work and services by establishing them as thought leaders.",
-    image: "/project-placeholder.png",
+    image: "/ana-thumbnail.png",
     link: "/work/ana-design-website",
     // github: "https://github.com",
     demo: "https://ana-design.com/",
@@ -120,7 +120,7 @@ export const homeProjects = [
     title: "Away Travel App",
     description:
       "Group travel planning mobile app that allows travel enthusiasts to explore places, create trips, invite friends, build itinerary, and plan activities together.",
-    image: "/project-placeholder.png",
+    image: "/away-thumbnail.png",
     link: "/work/away-travel-app",
     github: "https://github.com/gupta-karan1/AwayApp",
     // demo: "https://google.com",
@@ -130,7 +130,7 @@ export const homeProjects = [
     title: "Stone Bakery Website",
     description:
       "Business cum E-commerce website for a bakery shop in Dublin, Ireland. The website helps the bakery to showcase their products and services and also allows customers to place orders online.",
-    image: "/project-placeholder.png",
+    image: "/stone-thumbnail.png",
     link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/the-stone-bakery",
     demo: "https://the-stone-bakery.vercel.app/",

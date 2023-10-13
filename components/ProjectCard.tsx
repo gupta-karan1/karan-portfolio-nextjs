@@ -19,7 +19,7 @@ const ProjectCard = ({
           <Image
             src={image}
             alt="Project Placeholder"
-            width={500}
+            width={600}
             height={500}
           />
         </Link>
