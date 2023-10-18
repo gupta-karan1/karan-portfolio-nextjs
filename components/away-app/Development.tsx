@@ -37,8 +37,8 @@ const developmentData = [
 
 function Development() {
   return (
-    <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-300 flex flex-col items-center justify-center gap-5">
-      <h1 className="text-6xl mb-10">Development</h1>
+    <section className="min-h-screen py-10 lg:py-20 px-5 lg:px-10 bg-base-300 flex flex-col items-center justify-center gap-5">
+      <h1 className="lg:text-6xl text-5xl mb-10">Development</h1>
 
       <Swiper
         rewind={true}
@@ -49,9 +49,9 @@ function Development() {
         allowTouchMove={false}
       >
         {developmentData.map((item, index) => (
-          <SwiperSlide className="w-full h-full">
+          <SwiperSlide className="w-full h-full" key={index}>
             <div
-              className="card lg:card-side bg-neutral shadow-xl w-full"
+              className="card xl:card-side bg-neutral shadow-xl w-full"
               key={index}
             >
               <figure className="w-full">
@@ -78,7 +78,7 @@ function Development() {
                   />
                 )}
               </figure>
-              <div className="card-body w-8/12 ">
+              <div className="card-body w-full xl:w-8/12 ">
                 <h2 className="card-title">{item.title}</h2>
                 <p>{item.content}</p>
               </div>

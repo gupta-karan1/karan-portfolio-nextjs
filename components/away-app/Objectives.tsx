@@ -11,7 +11,7 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 
 // import required modules
-import { EffectCube, Pagination } from "swiper/modules";
+import { EffectCube, Pagination, Navigation } from "swiper/modules";
 
 const objectivesData = [
   {
@@ -43,7 +43,7 @@ const objectivesData = [
 
 function Objectives() {
   return (
-    <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-neutral flex flex-col items-center justify-center gap-5">
+    <section className="min-h-screen py-10 lg:py-20 px-5 lg:px-10 bg-neutral flex flex-col items-center justify-center gap-5">
       <h1 className="text-6xl mb-10">Objectives</h1>
 
       <Swiper
@@ -59,13 +59,21 @@ function Objectives() {
         pagination={{
           clickable: true,
         }}
-        modules={[EffectCube, Pagination]}
+        navigation={{
+          enabled: true,
+        }}
+        allowSlideNext={true}
+        allowSlidePrev={true}
+        modules={[EffectCube, Pagination, Navigation]}
         className="w-full h-full flex justify-center items-center"
       >
-        {objectivesData.map((data) => {
+        {objectivesData.map((data, index) => {
           return (
-            <SwiperSlide className="flex justify-center items-center w-full">
-              <div className="card w-full lg:card-side bg-neutral-focus shadow-xl">
+            <SwiperSlide
+              className="flex justify-center items-center w-full"
+              key={index}
+            >
+              <div className="card w-full xl:card-side bg-neutral-focus shadow-xl">
                 <figure>
                   <Image
                     src={data.image}
@@ -75,7 +83,7 @@ function Objectives() {
                     className="w-full h-full object-cover"
                   />
                 </figure>
-                <div className="card-body lg:w-8/12">
+                <div className="card-body xl:w-8/12">
                   <h2 className="card-title">{data.title}</h2>
                   <p>{data.content}</p>
                 </div>

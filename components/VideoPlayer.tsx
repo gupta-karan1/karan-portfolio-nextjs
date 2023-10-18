@@ -13,14 +13,14 @@ function VideoPlayer({
 }) {
   return (
     <video
-      controls
+      // controls
       autoPlay={auto}
       loop
       muted
       width={width}
       height={height}
-      className="rounded-3xl shadow-2xl object-fill object-center border-4 border-primary"
-      controlsList="nodownload nofullscreen noremoteplayback"
+      className="rounded-3xl shadow-2xl object-fill object-center border-4 border-accent"
+      // controlsList="nodownload "
     >
       <source src={source} type="video/mp4" />
       Your browser does not support the video tag.

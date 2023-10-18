@@ -66,7 +66,7 @@ const problemChats = [
 
 function Problem() {
   return (
-    <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-300 flex flex-col items-center justify-center gap-5">
+    <section className="min-h-screen py-10 lg:py-20 px-5 lg:px-10 bg-base-300 flex flex-col items-center justify-center gap-5">
       <h1 className="text-6xl mb-10">Problem</h1>
       <div className="grid gap-3 grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 place-items-center">
         <div className=" bg-neutral-focus p-5 rounded-3xl h-full">

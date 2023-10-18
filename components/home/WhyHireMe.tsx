@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { whyHireMe } from "@/constants";
+import { motion } from "framer-motion";
 
 function WhyHireMe() {
   const [showMore, setShowMore] = useState(false);
@@ -12,22 +13,28 @@ function WhyHireMe() {
           Why Hire Me
         </h2>
 
-        <div className="lg:w-6/12 w-full flex flex-col justify-center items-center gap-10">
+        <div className="lg:w-6/12 w-full flex flex-col justify-center items-center gap-10 px-5">
           {whyHireMe
             .map((item, index) => (
-              <div className="chat chat-start" key={index}>
-                <div className="chat-image avatar">
-                  <div className="w-10 rounded-full">
-                    <img src="/profile.png" title="avatar" />
+              <motion.div
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                key={index}
+              >
+                <div className="chat chat-start" key={index}>
+                  <div className="chat-image avatar">
+                    <div className="w-10 rounded-full">
+                      <img src="/profile-pic.jpg" title="avatar" />
+                    </div>
+                  </div>
+                  <div className="chat-header text-secondary-content ">
+                    {item.title}
+                  </div>
+                  <div className="chat-bubble bg-neutral-focus shadow-2xl">
+                    {item.description}
                   </div>
                 </div>
-                <div className="chat-header text-secondary-content ">
-                  {item.title}
-                </div>
-                <div className="chat-bubble bg-secondary text-secondary-content shadow-2xl">
-                  {item.description}
-                </div>
-              </div>
+              </motion.div>
             ))
             .slice(0, showMore ? whyHireMe.length : 3)}
 

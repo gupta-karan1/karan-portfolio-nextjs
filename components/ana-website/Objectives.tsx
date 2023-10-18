@@ -34,13 +34,13 @@ const objectiveData = [
 
 function Objectives() {
   return (
-    <section className="min-h-screen bg-base-100 flex flex-col items-center justify-center py-10 lg:py-20 px-10 lg:px-20">
+    <section className="min-h-screen bg-base-100 flex flex-col items-center justify-center py-10 lg:py-20 px-5 lg:px-10">
       <h1 className="text-6xl mb-10">Objectives</h1>
 
       <div className="grid lg:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-10">
         {objectiveData.map((data, index) => (
           <div
-            className="card w-80 h-80 bg-primary text-primary-content shadow-lg shadow-primary-focus"
+            className="card w-full lg:w-80 h-full lg:h-80 bg-primary text-primary-content shadow-lg "
             key={index}
           >
             <div className="card-body">

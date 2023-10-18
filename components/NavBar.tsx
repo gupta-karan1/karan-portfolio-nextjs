@@ -38,9 +38,9 @@ const NavBar = () => {
       <div className="flex-1">
         <Link href="/" className="btn btn-success normal-case text-xl">
           <code>
-            <span className="text-2xl">{"<"}</span>
-            <span className="text-2xl">Karan</span>
-            <span className="text-2xl">{"/>"}</span>
+            <span>{"<"}</span>
+            <span>Karan</span>
+            <span>{"/>"}</span>
           </code>
         </Link>
       </div>
@@ -53,7 +53,8 @@ const NavBar = () => {
               htmlFor="my-drawer-4"
               className="drawer-button btn btn-success btn-circle"
             >
-              <Bars3CenterLeftIcon className="w-5 h-5" />
+              <Bars3CenterLeftIcon className="w-5 h-5 lg:hidden" />
+              <span className="hidden lg:block lowercase">menu</span>
             </label>
           </div>
 
@@ -63,7 +64,7 @@ const NavBar = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu w-9/12 lg:w-4/12 min-h-full bg-success  gap-5 text-primary-content rounded-3xl lg:rounded-b-full  ">
+            <ul className="menu w-9/12 lg:w-4/12 min-h-full bg-gradient-to-tr from-primary to-accent-focus  gap-5 text-primary-content rounded-3xl lg:rounded-b-full  ">
               <li className="self-end ">
                 <label
                   htmlFor="my-drawer-4"
@@ -77,9 +78,9 @@ const NavBar = () => {
               <li className="text-4xl">
                 <Link href="/">Home</Link>
               </li>
-              <li className="text-4xl">
+              {/* <li className="text-4xl">
                 <Link href="/about">About</Link>
-              </li>
+              </li> */}
               <li className="text-4xl">
                 <Link href="/work">Work</Link>
               </li>

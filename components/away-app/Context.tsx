@@ -53,14 +53,14 @@ const contextData = [
 
 export default function Context() {
   return (
-    <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-100 flex flex-col items-center justify-center gap-5">
+    <section className="min-h-screen py-10 lg:py-20 px-5 lg:px-10 bg-base-100 flex flex-col items-center justify-center gap-5">
       <h1 className="text-6xl mb-10">Context</h1>
 
       <Swiper
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
-        className=" w-9/12 h-full"
+        className=" w-full  lg:w-9/12 h-full"
       >
         {contextData.map((card, index) => (
           <SwiperSlide

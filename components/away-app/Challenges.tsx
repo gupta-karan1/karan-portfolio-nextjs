@@ -57,24 +57,26 @@ function Challenges() {
   return (
     <>
       <h2 className="text-3xl">Challenges & Lessons</h2>
-      <div className="flex w-full">
-        <div className=" lg:h-[750px] h-full w-1/2 card bg-neutral p-10 rounded-box  shadow-xl flex-grow place-items-center grid ">
+      <div className="flex flex-col lg:flex-row w-full">
+        <div className=" xl:h-[750px] h-full w-full lg:w-1/2 card bg-neutral p-10 rounded-box  shadow-xl flex-grow place-items-center grid ">
           <h2 className="text-3xl mb-5 text-center">Design Stage</h2>
           <ul>
-            {designChallenges.map((challenge) => (
-              <li className="mb-5">
+            {designChallenges.map((challenge, index) => (
+              <li className="mb-5" key={index}>
                 <h3 className="text-xl ">{challenge.title}</h3>
                 <p className="text-md font-light">{challenge.content}</p>
               </li>
             ))}
           </ul>
         </div>
-        <div className="divider divider-horizontal">VS</div>
-        <div className=" lg:h-[750px] h-full w-1/2 card bg-neutral p-10 rounded-box shadow-xl flex-grow place-items-center grid ">
-          <h2 className="text-3xl">Development Stage</h2>
+        <div className="divider divider-horizontal text-center self-center">
+          VS
+        </div>
+        <div className=" xl:h-[750px] h-full w-full lg:w-1/2 card bg-neutral p-10 rounded-box shadow-xl flex-grow place-items-center grid ">
+          <h2 className="text-3xl mb-5 text-center">Development Stage</h2>
           <ul>
-            {developmentChallenges.map((challenge) => (
-              <li className="mb-5">
+            {developmentChallenges.map((challenge, index) => (
+              <li className="mb-5" key={index}>
                 <h3 className="text-xl ">{challenge.title}</h3>
                 <p className="text-md font-light">{challenge.content}</p>
               </li>

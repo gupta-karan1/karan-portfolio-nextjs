@@ -3,6 +3,7 @@
 import { testimonials } from "@/constants";
 import LinkArrow from "@/components/LinkArrow";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 function Testimonials() {
   const [showMore, setShowMore] = useState(false);
@@ -14,30 +15,36 @@ function Testimonials() {
           Testimonials
         </h2>
 
-        <div className="flex flex-wrap gap-10 items-center justify-center xl:grid xl:grid-cols-3 xl:w-10/12 ">
+        <div className="flex flex-wrap gap-5 items-center justify-center xl:grid xl:grid-cols-3 xl:w-10/12 px-5 ">
           {testimonials
             .map((item, index) => (
-              <div
-                className="card w-auto h-auto xl:h-96  bg-neutral-focus shadow-xl "
+              <motion.div
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
                 key={index}
               >
-                <div className="card-body justify-between">
-                  <div className="card-actions justify-end">
-                    <p>
-                      <span className="text-6xl text-accent">"</span>
-                      {item.description}
-                    </p>{" "}
+                <div
+                  className="card w-auto h-auto xl:h-96  bg-neutral-focus shadow-xl "
+                  key={index}
+                >
+                  <div className="card-body justify-between">
+                    <div className="card-actions justify-end">
+                      <p>
+                        <span className="text-6xl text-accent">"</span>
+                        {item.description}
+                      </p>{" "}
+                    </div>
+                    <h2 className="card-title justify-end text-right mt-5 ">
+                      <a href={item.linkedin} className="hover:text-accent">
+                        {item.name} <br />
+                        <span className="text-sm font-light">
+                          {item.designation}
+                        </span>{" "}
+                      </a>
+                    </h2>
                   </div>
-                  <h2 className="card-title justify-end text-right mt-5 ">
-                    <a href={item.linkedin} className="hover:text-accent">
-                      {item.name} <br />
-                      <span className="text-sm font-light">
-                        {item.designation}
-                      </span>{" "}
-                    </a>
-                  </h2>
                 </div>
-              </div>
+              </motion.div>
             ))
             .slice(0, showMore ? testimonials.length : 3)}
         </div>

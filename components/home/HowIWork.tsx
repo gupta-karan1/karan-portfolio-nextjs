@@ -1,5 +1,7 @@
+"use client";
 import TextCard from "@/components/TextCard";
 import { howIWork } from "@/constants";
+import { motion } from "framer-motion";
 
 function HowIWork() {
   return (
@@ -8,18 +10,24 @@ function HowIWork() {
         <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
           How I Work
         </h2>
-        <div className="flex lg:grid lg:grid-cols-2  gap-10 items-center justify-center flex-wrap ">
-          {howIWork.map((work) => (
-            <TextCard
-              key={work.title}
-              title={work.title}
-              description={work.description}
-              styles="bg-neutral-focus text-neutral-content lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
-              icon={work.icon}
-            />
+        <div className="flex lg:grid lg:grid-cols-2  gap-10 items-center justify-center flex-wrap px-5 ">
+          {howIWork.map((work, index) => (
+            <motion.div
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1 }}
+              key={index}
+            >
+              <TextCard
+                key={work.title}
+                title={work.title}
+                description={work.description}
+                styles="bg-neutral-focus text-neutral-content lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
+                icon={work.icon}
+              />
+            </motion.div>
           ))}
         </div>
-        <a href="/about" className="btn btn-outline text-primary-content">
+        {/* <a href="/about" className="btn btn-outline text-primary-content">
           Know More{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +41,7 @@ function HowIWork() {
               clipRule="evenodd"
             />
           </svg>
-        </a>
+        </a> */}
       </div>
     </section>
   );

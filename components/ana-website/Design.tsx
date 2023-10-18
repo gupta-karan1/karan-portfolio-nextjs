@@ -1,5 +1,15 @@
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
+"use client";
+
 import Image from "next/image";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+
+// import required modules
+import { Navigation, Pagination } from "swiper/modules";
 
 const designData = [
   {
@@ -36,10 +46,41 @@ const designData = [
 
 function Design() {
   return (
-    <section className="min-h-screen bg-base-100 flex flex-col items-center justify-center py-10 lg:py-20 px-10 lg:px-20">
+    <section className="min-h-screen bg-base-100 flex flex-col items-center justify-center py-10 lg:py-20 px-5 lg:px-10">
       <h1 className="text-6xl mb-10">Design</h1>
 
-      <div className="carousel carousel-center p-10 space-x-4 max-w-full bg-neutral rounded-3xl">
+      <Swiper
+        rewind={true}
+        navigation={true}
+        pagination={true}
+        modules={[Navigation, Pagination]}
+        className="w-full xl:w-10/12 h-full shadow-xl"
+        allowTouchMove={true}
+        allowSlideNext={true}
+        allowSlidePrev={true}
+      >
+        {designData.map((item, index) => (
+          <SwiperSlide className="w-full h-full" key={index}>
+            <div className="card xl:card-side bg-neutral shadow-xl ">
+              <figure className="w-full">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  width={1024}
+                  height={768}
+                  className="w-full h-full object-cover"
+                />
+              </figure>
+              <div className="card-body w-full xl:w-3/12">
+                <h1 className=" card-title">{item.title}</h1>
+                <p>{item.content}</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      {/* <div className="carousel carousel-center p-10 space-x-4 max-w-full bg-neutral rounded-3xl">
         {designData.map((data, index) => (
           <div
             className="carousel-item bg-transparent flex flex-col gap-2"
@@ -59,7 +100,7 @@ function Design() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

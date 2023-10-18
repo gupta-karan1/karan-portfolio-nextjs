@@ -76,7 +76,7 @@ export const testimonials = [
   },
   {
     description:
-      "Karan is a sensitive thinker and designer. He is well aware of world affairs andtechnology. His stance towards the aspects of heritage, society and environment, are exemplary for his age. Karan has displayed inspiring teamwork and empathetic design skills.",
+      "Karan is a sensitive thinker and designer. He is well aware of world affairs and technology. His stance towards the aspects of heritage, society and environment, are exemplary for his age. Karan has displayed inspiring teamwork and empathetic design skills.",
     name: "Prof. Saurabh Tewari",
     designation: "Assistant Professor of Design at IIT Delhi",
     linkedin: "https://www.linkedin.com/in/thinksaurabh/",
@@ -107,19 +107,7 @@ export const testimonials = [
 
 export const homeProjects = [
   {
-    title: "ANA Business Website",
-    description:
-      "Portfolio cum Business website for a 26 year old Architecture, Engineering & Construction Consultancy firm helping them to showcase their work and services by establishing them as thought leaders.",
-    image: "/ana-thumbnail.png",
-    link: "/work/ana-design-website",
-    // github: "https://github.com",
-    demo: "https://ana-design.com/",
-    tags: ["ux ui", "branding", "wordpress"],
-  },
-  {
     title: "Away Travel App",
-    description:
-      "Group travel planning mobile app that allows travel enthusiasts to explore places, create trips, invite friends, build itinerary, and plan activities together.",
     image: "/away-thumbnail.png",
     link: "/work/away-travel-app",
     github: "https://github.com/gupta-karan1/AwayApp",
@@ -127,9 +115,15 @@ export const homeProjects = [
     tags: ["react native", "ux ui", "branding"],
   },
   {
+    title: "ANA Business Website",
+    image: "/ana-thumbnail.png",
+    link: "/work/ana-design-website",
+    // github: "https://github.com",
+    demo: "https://ana-design.com/",
+    tags: ["ux ui", "branding", "wordpress"],
+  },
+  {
     title: "Stone Bakery Website",
-    description:
-      "Business cum E-commerce website for a bakery shop in Dublin, Ireland. The website helps the bakery to showcase their products and services and also allows customers to place orders online.",
     image: "/stone-thumbnail.png",
     link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/the-stone-bakery",
@@ -140,34 +134,102 @@ export const homeProjects = [
 
 export const allProjects = [
   ...homeProjects,
+
   {
-    title: "ANA Business Website",
-    description:
-      "Portfolio cum Business website for a 26 year old Architecture, Engineering & Construction Consultancy firm helping them to showcase their work and services by establishing them as thought leaders.",
-    image: "/project-placeholder.png",
-    link: "/work/ana-design-website",
-    // github: "https://github.com",
-    demo: "https://ana-design.com/",
-    tags: ["ux ui", "branding", "wordpress", "seo"],
+    title: "OneBill Business Website",
+    image: "/onebill-thumbnail.png",
+    // link: "/work/ana-design-website",
+    github: "https://github.com/gupta-karan1/OneBill-website",
+    demo: "https://onebill.ie/",
+    tags: ["ux ui", "branding", "html5 css"],
   },
   {
-    title: "Away Travel App",
-    description:
-      "Group travel planning mobile app that allows travel enthusiasts to explore places, create trips, invite friends, build itinerary, and plan activities together.",
-    image: "/project-placeholder.png",
-    link: "/work/away-travel-app",
-    github: "https://github.com/gupta-karan1/AwayApp",
-    // demo: "https://google.com",
-    tags: ["react native", "ux ui", "branding"],
+    title: "GrangeMobile App",
+    image: "/grangemobile-thumbnail.png",
+    link: "https://designerkaran.notion.site/GrangeMobile-Angular15-Ionic7-Report-70a528f747a34dbab7936d79aeba49e4?pvs=4",
+    github: "https://github.com/gupta-karan1/grange-mobile-app-angular",
+    demo: "https://youtu.be/YX0SYmg0CvQ",
+    tags: ["angular", "ionic", "typescript"],
   },
   {
-    title: "Stone Bakery Website",
-    description:
-      "Business cum E-commerce website for a bakery shop in Dublin, Ireland. The website helps the bakery to showcase their products and services and also allows customers to place orders online.",
-    image: "/project-placeholder.png",
-    link: "/work/stone-bakery-website",
-    github: "https://github.com/gupta-karan1/the-stone-bakery",
-    demo: "https://the-stone-bakery.vercel.app/",
-    tags: ["html5", "css", "javascript", "branding"],
+    title: "Fitness Catalogue App",
+    image: "/exercise-thumbnail.png",
+    // link: "/work/stone-bakery-website",
+    github: "https://github.com/gupta-karan1/exercise-app-reactjs",
+    demo: "https://exercise-app-reactjs.vercel.app/",
+    tags: ["react", "javascript", "materialUI"],
+  },
+  {
+    title: "Cars Catalogue App",
+    image: "/carhub-thumbnail.png",
+    // link: "/work/stone-bakery-website",
+    github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    demo: "https://car-showcase-app-nextjs-eta.vercel.app/",
+    tags: ["nextJS", "typescript", "tailwindCSS"],
+  },
+  {
+    title: "ARchitect Visualization App",
+    image: "/ARchitecture-thumbnail.png",
+    link: "https://docs.google.com/presentation/d/1XU1wDPdi_vJ4qg5ltYMHq3HimvBLijrbPSM4k6Hf5zg/edit?usp=sharing",
+    github: "https://github.com/gupta-karan1/architect-AR-app",
+    demo: "https://www.youtube.com/watch?v=tHLQ3ksZJ1E&t=2s",
+    tags: ["unity", "augmented reality"],
+  },
+  {
+    title: "Super-Doug Tales Game",
+    image: "/superdoug-thumbnail.png",
+    link: "https://drive.google.com/file/d/17BnfCZsWcXNENBrZoPqxDP2WS24xMSyH/view?usp=sharing",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    demo: "https://www.youtube.com/watch?v=47qeDqxfN6w&t=76s",
+    tags: ["graphic", "photoshop", "unity"],
+  },
+  {
+    title: "Super-Apocalypse Game",
+    image: "/apocalypse-thumbnail.png",
+    link: "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
+    github: "https://github.com/DarraghNolan/FirstSemesterPrototype",
+    demo: "https://dazariath.itch.io/post-apocalyptic-platformer",
+    tags: ["game-dev", "testing", "unity"],
+  },
+  {
+    title: "ANA Company Profile",
+    image: "/anaprofile-thumbnail.png",
+    link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
+    tags: ["graphic", "adobe cc", "branding"],
+  },
+  {
+    title: "ANA Company Portfolio",
+    image: "/anaportfolio-thumbnail.png",
+    link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
+    tags: ["graphic", "adobe cc", "branding"],
+  },
+  {
+    title: "CoffeeHouse App",
+    image: "/coffeehouse-thumbnail.png",
+    link: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
+    tags: ["figma", "ux ui", "branding"],
+  },
+  {
+    title: "Art Gallery App",
+    image: "/artgallery-thumbnail.png",
+    link: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
+    tags: ["figma", "ui design", "ux research"],
+  },
+
+  {
+    title: "Architectural Graphics",
+    image: "/archigraphics-thumbnail.png",
+    link: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
+    tags: ["architecture", "graphic", "adobe cc"],
   },
 ];

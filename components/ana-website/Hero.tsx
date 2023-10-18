@@ -3,7 +3,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
 function Hero() {
   return (
-    <section className="min-h-screen grid xl:gap-10 grid-cols-1 place-items-center  xl:grid-flow-col-dense py-10 lg:py-20 px-10 lg:px-20 bg-neutral-focus">
+    <section className="min-h-screen grid xl:gap-10 grid-cols-1 place-items-center  xl:grid-flow-col-dense py-10 lg:py-20 px-10 lg:px-10 bg-neutral-focus gap-5">
       <div className="xl:col-span-2 flex flex-col items-start gap-5 ">
         <h1 className=" text-5xl mt-10 lg:mt-0">
           {" "}
@@ -58,8 +58,13 @@ function Hero() {
             </tbody>
           </table>
         </div>
-        <a href="https://ana-design.com/" className="btn btn-outline">
-          Live Website <ArrowUpRightIcon className="w-5 h-5" />
+        <a
+          href="https://ana-design.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-outline"
+        >
+          Live <ArrowUpRightIcon className="w-5 h-5" />
         </a>
       </div>
       <div className="xl:col-span-8 mt-5 lg:mt-0 ">

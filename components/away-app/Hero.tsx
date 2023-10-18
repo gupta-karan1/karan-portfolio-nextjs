@@ -3,7 +3,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
 function Hero() {
   return (
-    <section className=" min-h-screen grid gap-5 xl:gap-10 grid-cols-1 place-items-center xl:grid-flow-col py-10 lg:py-20 px-10 lg:px-20 bg-neutral-focus">
+    <section className=" min-h-screen grid gap-5 xl:gap-10 grid-cols-1 place-items-center xl:grid-flow-col py-10 lg:py-20 px-5 lg:px-10 bg-neutral-focus">
       <div className="xl:col-span-2 flex flex-col items-start gap-5 ">
         <h1 className=" text-5xl mt-10 lg:mt-0"> Away Mobile App </h1>
         <h2 className="text-xl">
@@ -53,12 +53,16 @@ function Hero() {
           <a
             href="https://github.com/gupta-karan1/AwayApp"
             className="btn btn-outline"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             GitHub <ArrowUpRightIcon className="w-5 h-5" />
           </a>
           <a
             href="https://www.figma.com/proto/WhF3FKZwHVH8EwzQgBz9E7/Hi-Fi-Prototype_Karan?type=design&node-id=56-10718&t=OKo4LZrGsalseANA-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=56%3A10718&show-proto-sidebar=1&mode=design"
             className="btn btn-outline "
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Interact <ArrowUpRightIcon className="w-5 h-5" />
           </a>
@@ -77,7 +81,7 @@ function Hero() {
           source="/assets/away-app/away-record-2.mp4"
           width="380"
           height="600"
-          auto={false}
+          auto={true}
         />
       </div>
     </section>

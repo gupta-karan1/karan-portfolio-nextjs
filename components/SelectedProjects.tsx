@@ -1,5 +1,3 @@
-import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import ProjectGrid from "@/components/ProjectGrid";
 import { homeProjects } from "@/constants";
@@ -7,7 +5,7 @@ import { homeProjects } from "@/constants";
 function SelectedProjects() {
   return (
     <section className="bg-base-300  px-5 ">
-      <div className=" rounded-3xl lg:rounded-b-full bg-accent py-10 flex flex-col gap-10 items-center justify-center">
+      <div className=" rounded-3xl lg:rounded-b-full bg-accent py-10 px-5 flex flex-col gap-10 items-center justify-center">
         <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
           Selected Works
         </h2>

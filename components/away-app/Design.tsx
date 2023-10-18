@@ -104,7 +104,7 @@ function DesignCard({
 
 function Design() {
   return (
-    <section className="min-h-screen py-10 lg:py-20 px-10 lg:px-20 bg-base-100 flex flex-col items-center justify-center gap-5">
+    <section className="min-h-screen py-10 lg:py-20 px-5 lg:px-10 bg-base-100 flex flex-col items-center justify-center gap-5">
       <h1 className="text-6xl mb-10">Design</h1>
 
       <Swiper
@@ -113,7 +113,7 @@ function Design() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="w-10/12 h-full shadow-xl"
+        className="xl:w-10/12 w-full h-full shadow-xl"
       >
         {designData.map((item, index) => (
           <SwiperSlide key={index} className="w-full h-full ">

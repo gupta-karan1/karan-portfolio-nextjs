@@ -36,7 +36,7 @@ const conclusionData = [
 
 function Conclusion() {
   return (
-    <section className="min-h-screen bg-base-300 flex flex-col items-center justify-center py-10 lg:py-20 px-10 lg:px-20">
+    <section className="min-h-screen bg-base-300 flex flex-col items-center justify-center py-10 lg:py-20 px-5 lg:px-10">
       <h1 className="text-6xl mb-10">Conclusion</h1>
 
       <div className="grid lg:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-5">

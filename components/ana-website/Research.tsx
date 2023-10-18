@@ -37,7 +37,7 @@ function Research() {
     setActive(index);
   };
   return (
-    <section className="min-h-screen bg-base-300 flex flex-col items-center justify-start py-10 lg:py-20 px-10 lg:px-20">
+    <section className="min-h-screen bg-base-300 flex flex-col items-center justify-start py-10 lg:py-20 px-5 lg:px-10">
       <h1 className="text-6xl mb-10">Research</h1>
 
       <div className="grid  lg:grid-cols-4 grid-cols-2 gap-1 lg:gap-5">
@@ -58,7 +58,7 @@ function Research() {
 
       {researchData.map((data, index) => (
         <div
-          className={`card lg:card-side w-10/12 bg-neutral mt-10  ${
+          className={`card lg:card-side w-full  xl:w-11/12 bg-neutral mt-10  ${
             active === index ? "" : "hidden"
           }`}
           key={index}
@@ -69,6 +69,7 @@ function Research() {
               alt={data.title}
               width={1024}
               height={768}
+              className="w-full h-full object-cover"
             />
           </figure>
 

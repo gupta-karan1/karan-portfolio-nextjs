@@ -23,11 +23,11 @@ const problemData = [
 
 function Problem() {
   return (
-    <section className="min-h-screen bg-base-300 flex flex-col items-center justify-start py-10 lg:py-20 px-10 lg:px-20">
+    <section className="min-h-screen bg-base-300 flex flex-col items-center justify-start py-10 lg:py-20 px-5 lg:px-10">
       <h1 className="text-6xl mb-10">Problem</h1>
       <div className="flex gap-10 flex-wrap justify-center items-start">
         {problemData.map((data, index) => (
-          <div className="card w-96 bg-neutral " key={index}>
+          <div className="card w-full lg:w-96 bg-neutral " key={index}>
             <figure>
               {" "}
               <Image
@@ -37,7 +37,7 @@ function Problem() {
                 height={500}
               />
             </figure>
-            <div className="card-body h-80">
+            <div className="card-body h-full lg:h-80">
               <h2 className="card-title">{data.title}</h2>
               <p>{data.content}</p>
             </div>

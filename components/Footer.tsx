@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="px-5 pb-5 pt-5  bg-base-300">
       <footer className="footer items-center p-4 bg-secondary text-secondary-content rounded-3xl lg:rounded-full ">
-        <aside className="items-center grid-flow-col">
+        <aside className="items-center md:grid-flow-col grid-flow-row gap-5">
           <Link href="/" className="btn btn-ghost btn-sm rounded-full">
             <code>
               <span className="text-2xl">{"<"}</span>
@@ -16,9 +16,9 @@ const Footer = () => {
             </code>
           </Link>
 
-          <p>
-            Copyright © 2023 - All right reserved. Designed & Developed by Karan
-            Gupta using NextJS, Typescript, TailwindCSS & DaisyUI.
+          <p className="text-sm">
+            Copyright © 2023 - All right reserved. By Karan using NextJS,
+            Typescript, TailwindCSS, FramerMotion & DaisyUI.
           </p>
         </aside>
         <nav className="grid-flow-col gap-4 place-self-center justify-self-end">
