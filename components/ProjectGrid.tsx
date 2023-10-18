@@ -9,8 +9,8 @@ const ProjectGrid = ({ projects }: { projects: Array<any> }) => {
     <div className="flex flex-wrap xl:gap-10 2xl:gap-20 gap-5 items-center justify-center">
       {projects.map((project, index) => (
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           key={index}
         >
           <ProjectCard

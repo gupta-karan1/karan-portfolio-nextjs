@@ -19,8 +19,8 @@ function Testimonials() {
           {testimonials
             .map((item, index) => (
               <motion.div
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 key={index}
               >
                 <div

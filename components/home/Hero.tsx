@@ -101,10 +101,10 @@ export default function Hero() {
         {/* <div className=" bg-gradient-to-br from-accent to-primary rounded-b-full lg:rounded-full lg:rounded-tl-lg p-5 lg:p-10 lg:ps-20 w-full h-full grid grid-cols-1 lg:grid-cols-2 place-content-center gap-5 lg:gap-10 2xl:gap-20"> */}
         <motion.div
           initial={{
-            scale: 0,
+            opacity: 0,
           }}
           animate={{
-            scale: 1,
+            opacity: 1,
           }}
           transition={{ ease: "easeIn", duration: 1 }}
           className="grid place-content-center"

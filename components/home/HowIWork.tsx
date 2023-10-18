@@ -13,8 +13,8 @@ function HowIWork() {
         <div className="flex lg:grid lg:grid-cols-2  gap-10 items-center justify-center flex-wrap px-5 ">
           {howIWork.map((work, index) => (
             <motion.div
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               key={index}
             >
               <TextCard
