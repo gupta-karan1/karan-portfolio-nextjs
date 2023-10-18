@@ -29,7 +29,7 @@ export const whyHireMe = [
   {
     title: "Design and Development Skills",
     description:
-      "As an architect turn UX/UI designer, I have been upskilling myself in frontend development to be able to build my own designs. I have been learning CSS, JavaScript, ReactJS, Angular and React Native to be able to build my own prototypes. This is very valuable to employers as it saves them time and money.",
+      "As an architect turned UX/UI designer, I have been upskilling myself in frontend development to be able to build my own designs. I have been learning CSS, JavaScript, ReactJS, Angular and React Native to be able to build my own prototypes. This is very valuable to employers as it saves them time and money.",
   },
   {
     title: "Balances Business & Usability Goals",
