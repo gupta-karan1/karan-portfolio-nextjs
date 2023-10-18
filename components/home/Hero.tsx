@@ -158,13 +158,13 @@ export default function Hero() {
           animate={{ scale: 1 }}
           transition={{ ease: "easeIn", duration: 1 }}
         >
-          <figure className="w-full h-full">
+          <figure className="w-full h-full  ">
             <Image
               src="/profile-pic.jpg"
               width={900}
               height={900}
               alt="karan"
-              className="w-full h-full rounded-full object-cover"
+              className="w-full h-full rounded-full object-cover object-center"
             />
           </figure>
         </motion.div>
