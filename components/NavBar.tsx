@@ -94,6 +94,11 @@ const NavBar = () => {
                   Blog <ArrowUpRightIcon className="w-10 h-10" />
                 </Link>
               </li>
+              <li className="text-4xl">
+                <Link href="https://www.amazon.co.uk/Karan-Gupta/e/B08VF66J7J?ref=sr_ntt_srch_lnk_1&qid=1698246554&sr=8-1">
+                  Books <ArrowUpRightIcon className="w-10 h-10" />
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
