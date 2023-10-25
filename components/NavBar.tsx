@@ -90,12 +90,20 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="text-4xl">
-                <Link href="https://www.designerkaran.com/">
+                <Link
+                  href="https://www.designerkaran.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Blog <ArrowUpRightIcon className="w-10 h-10" />
                 </Link>
               </li>
               <li className="text-4xl">
-                <Link href="https://www.amazon.co.uk/Karan-Gupta/e/B08VF66J7J?ref=sr_ntt_srch_lnk_1&qid=1698246554&sr=8-1">
+                <Link
+                  href="https://www.amazon.co.uk/Karan-Gupta/e/B08VF66J7J?ref=sr_ntt_srch_lnk_1&qid=1698246554&sr=8-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Books <ArrowUpRightIcon className="w-10 h-10" />
                 </Link>
               </li>
