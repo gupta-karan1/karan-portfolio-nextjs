@@ -107,7 +107,8 @@ export const testimonials = [
 
 export const homeProjects = [
   {
-    title: "Away Travel App",
+    title:
+      "Planning Unified Journeys: Transforming Group Travel Planning with Away App",
     image: "/away-thumbnail.png",
     link: "/work/away-travel-app",
     github: "https://github.com/gupta-karan1/AwayApp",
@@ -115,7 +116,8 @@ export const homeProjects = [
     tags: ["react native", "ux ui", "branding"],
   },
   {
-    title: "ANA Business Website",
+    title:
+      "Elevating Architectural Excellence: Redefining Web Presence for ANA Design Studio Pvt Ltd",
     image: "/ana-thumbnail.png",
     link: "/work/ana-design-website",
     // github: "https://github.com",
@@ -123,7 +125,8 @@ export const homeProjects = [
     tags: ["ux ui", "branding", "wordpress"],
   },
   {
-    title: "Stone Bakery Website",
+    title:
+      "Crafting Delights Online: The Stone Bakery's Digital Rise with E-Commerce Website",
     image: "/stone-thumbnail.png",
     link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/the-stone-bakery",
@@ -136,7 +139,8 @@ export const allProjects = [
   ...homeProjects,
 
   {
-    title: "OneBill Business Website",
+    title:
+      "Simplifying Finances: Presenting OneBill's Digital Solution for Utility Bills with Business Website",
     image: "/onebill-thumbnail.png",
     // link: "/work/ana-design-website",
     github: "https://github.com/gupta-karan1/OneBill-website",
@@ -144,7 +148,8 @@ export const allProjects = [
     tags: ["ux ui", "branding", "html5 css"],
   },
   {
-    title: "GrangeMobile App",
+    title:
+      "Empowering Students: GrangeMobile App - Your All-in-One Campus Companion",
     image: "/grangemobile-thumbnail.png",
     link: "https://designerkaran.notion.site/GrangeMobile-Angular15-Ionic7-Report-70a528f747a34dbab7936d79aeba49e4?pvs=4",
     github: "https://github.com/gupta-karan1/grange-mobile-app-angular",
@@ -152,7 +157,8 @@ export const allProjects = [
     tags: ["angular", "ionic", "typescript"],
   },
   {
-    title: "Fitness Catalogue App",
+    title:
+      "Helping You Achieve Your Fitness Goals: The Fitness Catalogue Web App",
     image: "/exercise-thumbnail.png",
     // link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/exercise-app-reactjs",
@@ -160,7 +166,8 @@ export const allProjects = [
     tags: ["react", "javascript", "materialUI"],
   },
   {
-    title: "Cars Catalogue App",
+    title:
+      "Discovering the Perfect Ride for Your Trips: The Cars Catalogue Web App",
     image: "/carhub-thumbnail.png",
     // link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
@@ -168,31 +175,18 @@ export const allProjects = [
     tags: ["nextJS", "typescript", "tailwindCSS"],
   },
   {
-    title: "ARchitect Visualization App",
+    title:
+      "Simplifying Architecture Visualization for Architects and Clients: ARchitect AR App",
     image: "/ARchitecture-thumbnail.png",
     link: "https://docs.google.com/presentation/d/1XU1wDPdi_vJ4qg5ltYMHq3HimvBLijrbPSM4k6Hf5zg/edit?usp=sharing",
     github: "https://github.com/gupta-karan1/architect-AR-app",
     demo: "https://www.youtube.com/watch?v=tHLQ3ksZJ1E&t=2s",
     tags: ["unity", "augmented reality"],
   },
+
   {
-    title: "Super-Doug Tales Game",
-    image: "/superdoug-thumbnail.png",
-    link: "https://drive.google.com/file/d/17BnfCZsWcXNENBrZoPqxDP2WS24xMSyH/view?usp=sharing",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    demo: "https://www.youtube.com/watch?v=47qeDqxfN6w&t=76s",
-    tags: ["graphic", "photoshop", "unity"],
-  },
-  {
-    title: "Super-Apocalypse Game",
-    image: "/apocalypse-thumbnail.png",
-    link: "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
-    github: "https://github.com/DarraghNolan/FirstSemesterPrototype",
-    demo: "https://dazariath.itch.io/post-apocalyptic-platformer",
-    tags: ["game-dev", "testing", "unity"],
-  },
-  {
-    title: "ANA Company Profile",
+    title:
+      "Helping ANA Design Studio Achieve Their Business Goals: ANA Brand Brochure/Profile",
     image: "/anaprofile-thumbnail.png",
     link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
@@ -200,7 +194,8 @@ export const allProjects = [
     tags: ["graphic", "adobe cc", "branding"],
   },
   {
-    title: "ANA Company Portfolio",
+    title:
+      "Presenting ANA Design Studio's 26+ Years of Excellence: ANA Brand Portfolio",
     image: "/anaportfolio-thumbnail.png",
     link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
@@ -208,7 +203,8 @@ export const allProjects = [
     tags: ["graphic", "adobe cc", "branding"],
   },
   {
-    title: "CoffeeHouse App",
+    title:
+      "Making Bulk Coffee Orders Easy, Authentic & Intuitive: The CoffeeHouse App",
     image: "/coffeehouse-thumbnail.png",
     link: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
@@ -216,7 +212,8 @@ export const allProjects = [
     tags: ["figma", "ux ui", "branding"],
   },
   {
-    title: "Art Gallery App",
+    title:
+      "Building a Community of Local Artists and Art Lovers: The ArtGallery App",
     image: "/artgallery-thumbnail.png",
     link: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
@@ -225,11 +222,30 @@ export const allProjects = [
   },
 
   {
-    title: "Architectural Graphics",
+    title:
+      "Communicating Architectural Ideas with Graphics: Architecture Portfolio",
     image: "/archigraphics-thumbnail.png",
     link: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     // demo: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
     tags: ["architecture", "graphic", "adobe cc"],
+  },
+  {
+    title:
+      "Building & Testing a Prototype for a 2D Platform Game: Super-Doug Game",
+    image: "/superdoug-thumbnail.png",
+    link: "https://drive.google.com/file/d/17BnfCZsWcXNENBrZoPqxDP2WS24xMSyH/view?usp=sharing",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    demo: "https://www.youtube.com/watch?v=47qeDqxfN6w&t=76s",
+    tags: ["graphic", "photoshop", "unity"],
+  },
+  {
+    title:
+      "Storytelling & Gameplay in a Post-Apocalyptic World: Post-Apocalyptic Platformer Game",
+    image: "/apocalypse-thumbnail.png",
+    link: "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
+    github: "https://github.com/DarraghNolan/FirstSemesterPrototype",
+    demo: "https://dazariath.itch.io/post-apocalyptic-platformer",
+    tags: ["game-dev", "testing", "unity"],
   },
 ];

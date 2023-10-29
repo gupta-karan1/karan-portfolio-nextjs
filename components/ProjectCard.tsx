@@ -13,7 +13,7 @@ const ProjectCard = ({
   tags,
 }: typeof ProjectCardTypes) => {
   return (
-    <div className="card w-auto lg:w-[410px] bg-base-100 shadow-2xl 2xl:w-[450px] ">
+    <div className="card w-auto lg:w-[410px]  bg-base-100 shadow-2xl 2xl:w-[450px] ">
       <figure>
         <Link href={link} target="_blank">
           <Image
@@ -34,7 +34,7 @@ const ProjectCard = ({
         </div>
 
         <Link href={link} target="_blank">
-          <h2 className="card-title  text-2xl">{title}</h2>
+          <h2 className="card-title  text-xl">{title}</h2>
         </Link>
 
         {/* <p className="font-light line-clamp-5 text-sm">{description}</p> */}
