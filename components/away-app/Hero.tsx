@@ -59,6 +59,14 @@ function Hero() {
             GitHub <ArrowUpRightIcon className="w-5 h-5" />
           </a>
           <a
+            href="https://docs.google.com/document/d/1faiAEovrXXz8sU7r8c8l_gVj9lIrxxbVnSTupbC51sY/edit?usp=sharing"
+            className="btn btn-outline "
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Proposal <ArrowUpRightIcon className="w-5 h-5" />
+          </a>
+          <a
             href="https://www.figma.com/proto/WhF3FKZwHVH8EwzQgBz9E7/Hi-Fi-Prototype_Karan?type=design&node-id=56-10718&t=OKo4LZrGsalseANA-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=56%3A10718&show-proto-sidebar=1&mode=design"
             className="btn btn-outline "
             target="_blank"
