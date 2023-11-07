@@ -4,7 +4,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 function Hero() {
   return (
     <section className=" min-h-screen grid gap-5 xl:gap-10 grid-cols-1 place-items-center xl:grid-flow-col py-10 lg:py-20 px-5 lg:px-10 bg-neutral-focus">
-      <div className="xl:col-span-2 flex flex-col items-start gap-5 ">
+      <div className="xl:col-span-2 flex flex-col items-start gap-5 place-items-center ">
         <h1 className=" text-5xl mt-10 lg:mt-0"> Away Mobile App </h1>
         <h2 className="text-xl">
           Group Travel Planning App for travel enthusiasts where friends can
@@ -76,18 +76,10 @@ function Hero() {
           </a>
         </div>
       </div>
-      <div className="xl:col-span-2 mt-5 lg:mt-0 ">
+      <div className="xl:col-span-6 mt-5 lg:mt-0 ">
         <VideoPlayer
-          source="/assets/away-app/away-record-1.mp4"
-          width="380"
-          height="600"
-          auto={true}
-        />
-      </div>
-      <div className="xl:col-span-2">
-        <VideoPlayer
-          source="/assets/away-app/away-record-2.mp4"
-          width="380"
+          source="/assets/away-app/Away_New.mp4"
+          width="400"
           height="600"
           auto={true}
         />
