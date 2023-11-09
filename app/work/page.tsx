@@ -1,29 +1,47 @@
 import ProjectGrid from "@/components/ProjectGrid";
 import ContactMe from "@/components/home/ContactMe";
-import { allProjects } from "@/constants";
+import { webProjects, mobileProjects, graphicProjects } from "@/constants";
 
 export default function Work() {
   return (
     <main>
       <section className="min-h-screen pt-20 px-5 bg-base-300 pb-5">
-        <div className="  bg-gradient-to-br from-primary to-accent rounded-3xl p-5 py-20 mb-5">
+        <div className="  bg-gradient-to-br from-primary to-accent rounded-3xl p-10">
           <h1 className=" text-6xl md:text-9xl font-bold text-primary-content text-center">
             Work
           </h1>
-          <p className="text-2xl text-primary-content text-center">
-            Here are some of my projects.
-          </p>
+        </div>
+        <div className=" flex flex-col lg:flex-row gap-10 items-center justify-center p-5">
+          <p className="text-2xl text-center">Quickly navigate to:</p>
+
+          <a className="btn btn-neutral btn-outline" href="#mobile">
+            Mobile
+          </a>
+          <a className="btn btn-neutral btn-outline" href="#web">
+            Web
+          </a>
+          <a className="btn btn-neutral btn-outline" href="#graphic">
+            Branding
+          </a>
         </div>
 
-        <div className=" bg-neutral py-20 px-5 rounded-3xl">
-          {/* Filter List
-          <div className="btn-group mb-5">
-            <button className="btn btn-neutral">All</button>
-            <button className="btn btn-neutral">Web</button>
-            <button className="btn btn-neutral">Mobile</button>
-            <button className="btn btn-neutral">Design</button>
-          </div> */}
-          <ProjectGrid projects={allProjects} />
+        <div className=" bg-accent py-20 px-5 rounded-3xl mb-5" id="mobile">
+          <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
+            Mobile Apps | UX UI Design
+          </h2>
+          <ProjectGrid projects={mobileProjects} />
+        </div>
+        <div className=" bg-secondary py-20 px-5 rounded-3xl mb-5" id="web">
+          <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
+            Websites | Web Apps | UX UI Design
+          </h2>
+          <ProjectGrid projects={webProjects} />
+        </div>
+        <div className=" bg-primary py-20 px-5 rounded-3xl" id="graphic">
+          <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
+            Branding | Graphic Design | Architecture
+          </h2>
+          <ProjectGrid projects={graphicProjects} />
         </div>
       </section>
       <ContactMe />
