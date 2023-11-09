@@ -357,7 +357,8 @@ export const graphicProjects = [
     title:
       "Helping ANA Design Studio Achieve Their Business Goals: ANA Brand Brochure/Profile",
     image: "/anaprofile-thumbnail.png",
-    link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
+    // link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
+    link: "/work/ana-profile",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     // demo: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
     tags: ["graphic", "adobe cc", "branding"],
@@ -366,7 +367,8 @@ export const graphicProjects = [
     title:
       "Presenting ANA Design Studio's 26+ Years of Excellence: ANA Brand Portfolio",
     image: "/anaportfolio-thumbnail.png",
-    link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
+    link: "/work/ana-portfolio",
+    // link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
     tags: ["graphic", "adobe cc", "branding"],
