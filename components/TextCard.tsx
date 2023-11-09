@@ -13,11 +13,7 @@ function TextCard({
     <div className={`card ${styles}`}>
       <div className="card-body  text-neutral-content">
         {icon && (
-          <img
-            src={icon}
-            alt="icon"
-            className="w-16 h-16 mb-2 text-neutral-content"
-          />
+          <img src={icon} alt="icon" className="w-16 h-16 mb-2 text-white" />
         )}
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>

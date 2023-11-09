@@ -27,34 +27,40 @@ export const howIWork = [
 
 export const whyHireMe = [
   {
-    title: "Design and Development Skills",
+    title: "Design & Development Skills",
     description:
-      "As an architect turned UX/UI designer, I have been upskilling myself in frontend development to be able to build my own designs. I have been learning CSS, JavaScript, ReactJS, Angular and React Native to be able to build my own prototypes. This is very valuable to employers as it saves them time and money.",
+      "As an architect turned UX/UI designer, I believe in learning both the design and implementation. So, I have been learning frontend development to build my own prototypes.",
+    icon: "/code.svg",
   },
   {
-    title: "Balances Business & Usability Goals",
+    title: "Balance Business & User Goals",
     description:
-      "From my experience in Branding and Communications, I aim to focus on the business goals of the client while designing a product. I believe in creating a balance between the business goals and the usability goals of the product to create a win-win situation for both the client and the user.",
+      "I focus on creating a balance between the business goals of the client and the usability goals of the product to create a win-win situation for both the client and the user.",
+    icon: "/balance-scale.svg",
   },
   {
     title: "Multidisciplinary Background",
     description:
-      " I have a multidisciplinary background of 9+ years in Architecture, UX/UI Design, Branding, Communications, Visual Design, Content Marketing and Frontend Development. This allows me to bring a unique perspective to the table and helps me to understand the bigger picture while working on a project.",
+      "For 9+ years, I've dabbled in UX/UI Design, Architecture, Branding, Visual Design, Content Strategy & Web Development. This allows me to bring a diverse perspective to a project.",
+    icon: "/layers.svg",
   },
   {
     title: "Quick Learner & Adaptable",
     description:
-      "I have been working in different roles and industries for the past 3+ years and have been able to adapt to different environments and cultures. I am a quick learner and able to learn new skills and tools on the job. It took me 1 week to learn WordPress and build a design business website for my architecture employer who was in a crisis situation.",
+      "I have worked in multiple roles and industries and have been able to adapt to different environments and cultures. I am a quick learner and able to learn new skills and tools on the job.",
+    icon: "/lightning-bolt.svg",
   },
   {
     title: "Accountable & Initiative Taker",
     description:
-      "Working for 3+ years in the industry, I've gained professional maturity that helps my teammates & employers vest their trust in my promises & actions. I'm self motivated enough to take the 1st initiative & resolve problems.",
+      "I've gained professional maturity that helps my teammates & employers vest their trust in my promises & actions. I'm self motivated enough to take the 1st initiative & resolve problems.",
+    icon: "/handshake.svg",
   },
   {
     title: "Perseverance over Perfection",
     description:
-      " I've worked on year long architecture & design projects that ultimately got scraped off. With each iteration and collaboration, I've learnt that perfect designs don't exist. Some progress is better than waiting for perfection.",
+      "I've worked design projects wit over 100+ iterations. With each iteration and feedback, I've learnt that perfect designs don't exist.Progress is better than waiting for perfection.",
+    icon: "/clock.svg",
   },
 ];
 
@@ -90,7 +96,7 @@ export const testimonials = [
   },
   {
     description:
-      "I really like the look and feel of the website designed and developed by Karan for OneBill. He was able to understand our requirements and deliver the website in a short span of time. He is a great at incorporating feedback and is a great team player.",
+      "I really like the look and feel of the website designed and developed by Karan for OneBill. He was able to understand our requirements and deliver the website in a short span of time. ",
     name: "Adem Ergen",
     designation: "Founder, OneBill Utilities, Dublin, Ireland",
     linkedin:
