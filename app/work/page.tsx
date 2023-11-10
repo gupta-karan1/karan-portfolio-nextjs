@@ -16,11 +16,11 @@ export default function Work() {
             Quickly navigate to:
           </p>
 
-          <a className="btn btn-neutral btn-outline" href="#mobile">
-            Mobile
-          </a>
           <a className="btn btn-neutral btn-outline" href="#web">
             Web
+          </a>
+          <a className="btn btn-neutral btn-outline" href="#mobile">
+            Mobile
           </a>
           <a className="btn btn-neutral btn-outline" href="#graphic">
             Branding
