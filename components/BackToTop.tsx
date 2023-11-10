@@ -25,7 +25,7 @@ function BackToTop() {
       <button
         title="Back to top"
         type="button"
-        className="fixed bottom-5 right-5 p-2 rounded-full bg-neutral hover:bg-neutral-300"
+        className="fixed bottom-5 right-5 p-2 rounded-full bg-neutral hover:bg-neutral-focus"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
