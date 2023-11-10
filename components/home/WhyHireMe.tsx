@@ -22,19 +22,6 @@ function WhyHireMe() {
                 whileInView={{ opacity: 1 }}
                 key={index}
               >
-                {/* <div className="chat chat-start" key={index}>
-                  <div className="chat-image avatar">
-                    <div className="w-10 rounded-full">
-                      <img src="/profile-pic.jpg" title="avatar" />
-                    </div>
-                  </div>
-                  <div className="chat-header text-secondary-content ">
-                    {item.title}
-                  </div>
-                  <div className="chat-bubble bg-neutral-focus shadow-2xl">
-                    {item.description}
-                  </div>
-                </div> */}
                 <TextCard
                   key={item.title}
                   title={item.title}

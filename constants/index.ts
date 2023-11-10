@@ -371,7 +371,17 @@ export const graphicProjects = [
     // link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
-    tags: ["graphic", "adobe cc", "branding"],
+    tags: ["editorial", "adobe cc", "branding"],
+  },
+  {
+    title:
+      "Transforming ANA Design Studio's Business into a Brand: ANA Branding & Content Strategy",
+    image: "/ana-branding-thumbnail.png",
+    link: "/work/ana-branding",
+    // link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
+    tags: ["content", "adobe cc", "branding"],
   },
   {
     title:

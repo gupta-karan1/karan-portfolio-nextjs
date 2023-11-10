@@ -27,21 +27,22 @@ export default function Work() {
           </a>
         </div>
 
-        <div className=" bg-accent py-10 px-5 rounded-3xl mb-5" id="mobile">
-          <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
-            Mobile Apps | UX UI Design
-          </h2>
-          <ProjectGrid projects={mobileProjects} />
-        </div>
         <div className=" bg-secondary py-10 px-5 rounded-3xl mb-5" id="web">
           <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
             Websites | Web Apps | UX UI Design
           </h2>
           <ProjectGrid projects={webProjects} />
         </div>
+        <div className=" bg-accent py-10 px-5 rounded-3xl mb-5" id="mobile">
+          <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
+            Mobile Apps | UX UI Design
+          </h2>
+          <ProjectGrid projects={mobileProjects} />
+        </div>
+
         <div className=" bg-primary py-10 px-5 rounded-3xl" id="graphic">
           <h2 className=" text-3xl md:text-5xl font-bold text-primary-content text-center mb-10">
-            Branding | Graphic Design | Architecture
+            Branding | Visual Design
           </h2>
           <ProjectGrid projects={graphicProjects} />
         </div>
