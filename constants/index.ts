@@ -286,6 +286,15 @@ export const webProjects = [
   },
   {
     title:
+      "Attracting Customers with a Fresh New Look: Slice Cafe Dublin Website Redesign",
+    image: "/slice-thumbnail.png",
+    link: "https://designerkaran.notion.site/Slice-Caf-Dublin-Website-Redesign-129c5bb18b214afaa2c18ed6fe1f8d35?pvs=4",
+    // github: "https://github.com/gupta-karan1/OneBill-website",
+    demo: "https://www.figma.com/proto/Mwszcda939Yo7EtXedEUCQ/Slice-Web-Redesign?page-id=0%3A1&type=design&node-id=6-168&viewport=-897%2C373%2C0.2&t=QKnqAGnQUUuenuGb-1&scaling=min-zoom&starting-point-node-id=6%3A168&mode=design",
+    tags: ["ux ui", "branding", "figma"],
+  },
+  {
+    title:
       "Helping You Achieve Your Fitness Goals: The Fitness Catalogue Web App",
     image: "/exercise-thumbnail.png",
     // link: "/work/stone-bakery-website",

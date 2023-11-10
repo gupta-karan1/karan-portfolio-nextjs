@@ -11,9 +11,9 @@ export default function Work() {
             Work
           </h1>
         </div>
-        <div className=" flex gap-5 items-center justify-center p-5">
-          <p className="lg:text-2xl  text-lg text-center">
-            Quickly navigate to:
+        <div className=" flex gap-2 lg:gap-5 items-center justify-center p-5">
+          <p className="lg:text-2xl  text-sm text-center">
+            Quickly Navigate To:
           </p>
 
           <a className="btn btn-neutral btn-outline" href="#web">
