@@ -280,8 +280,8 @@ export const webProjects = [
       "Simplifying Finances: Presenting OneBill's Digital Solution for Utility Bills with Business Website",
     image: "/onebill-thumbnail.png",
     // link: "/work/ana-design-website",
-    // github: "https://github.com/gupta-karan1/OneBill-website",
-    demo: "https://onebill.ie/",
+    github: "https://github.com/gupta-karan1/OneBill-website",
+    demo: "https://one-bill-website.vercel.app/",
     tags: ["ux ui", "branding", "html5 css"],
   },
   {
