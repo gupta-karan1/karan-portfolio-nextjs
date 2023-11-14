@@ -67,10 +67,10 @@ export const whyHireMe = [
 export const testimonials = [
   {
     description:
-      "Under my guidance, Karan has undertaken diverse range of responsibilities such as Content Management for company website and publications; Social Media Management & Public Relation Activities, Curation of Brand Assets through digital and print media, and many more.  I am impressed by his research and analytical skills.",
-    name: "Prof. Charanjit Singh Shah",
-    designation: "Founder, Creative Group LLP, Delhi, India",
-    linkedin: "https://www.linkedin.com/company/creative-group-new-d/",
+      "Karan is a sensitive thinker and designer. He is well aware of world affairs and technology. His stance towards the aspects of heritage, society and environment, are exemplary for his age. Karan has displayed inspiring teamwork and empathetic design skills.",
+    name: "Prof. Saurabh Tewari",
+    designation: "Assistant Professor of Design at IIT Delhi",
+    linkedin: "https://www.linkedin.com/in/thinksaurabh/",
   },
 
   {
@@ -90,10 +90,10 @@ export const testimonials = [
   },
   {
     description:
-      "Karan is a sensitive thinker and designer. He is well aware of world affairs and technology. His stance towards the aspects of heritage, society and environment, are exemplary for his age. Karan has displayed inspiring teamwork and empathetic design skills.",
-    name: "Prof. Saurabh Tewari",
-    designation: "Assistant Professor of Design at IIT Delhi",
-    linkedin: "https://www.linkedin.com/in/thinksaurabh/",
+      "Under my guidance, Karan has undertaken diverse range of responsibilities such as Content Management for company website and publications; Social Media Management & Public Relation Activities, Curation of Brand Assets through digital and print media, and many more.  I am impressed by his research and analytical skills.",
+    name: "Prof. Charanjit Singh Shah",
+    designation: "Founder, Creative Group LLP, Delhi, India",
+    linkedin: "https://www.linkedin.com/company/creative-group-new-d/",
   },
   {
     description:
