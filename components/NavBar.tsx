@@ -78,9 +78,9 @@ const NavBar = () => {
               <li className="text-4xl">
                 <Link href="/">Home</Link>
               </li>
-              {/* <li className="text-4xl">
+              <li className="text-4xl">
                 <Link href="/about">About</Link>
-              </li> */}
+              </li>
               <li className="text-4xl">
                 <Link href="/work">Work</Link>
               </li>
