@@ -81,6 +81,7 @@ function Objectives() {
                     width={1920}
                     height={1080}
                     className="w-full h-full object-cover"
+                    loading="eager"
                   />
                 </figure>
                 <div className="card-body xl:w-8/12">

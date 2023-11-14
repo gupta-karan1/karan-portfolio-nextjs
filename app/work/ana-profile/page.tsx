@@ -22,7 +22,7 @@ function AnaProfile() {
         }}
       >
         <div className="text-neutral-content">
-          <div className="bg-neutral bg-opacity-90 w-max p-3 rounded">
+          <div className="bg-neutral bg-opacity-90 lg:w-max p-3 rounded">
             <p className="text-md">
               Helping ANA Design Studio Achieve Their Business Goals:
             </p>

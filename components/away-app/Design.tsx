@@ -87,6 +87,7 @@ function DesignCard({
           height={600}
           alt="stage1"
           className="rounded-box shadow-xl w-full"
+          loading="eager"
         />
       </figure>
       <div className="card-body ">

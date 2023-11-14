@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
 
           <p className="text-sm">
-            Copyright © 2023 - All right reserved. By Karan using NextJS,
+            Copyright © 2023 - All right reserved. Built using NextJS,
             Typescript, TailwindCSS, FramerMotion & DaisyUI.
           </p>
         </aside>
