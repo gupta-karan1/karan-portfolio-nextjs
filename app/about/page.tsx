@@ -282,7 +282,7 @@ function About() {
         </div>
       </section>
       <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 bg-primary rounded-3xl lg:rounded-full lg:rounded-tl-none ">
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 bg-primary rounded-3xl lg:rounded-full lg:rounded-tl-none ">
           <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
             Sketching & Rendering
           </h2>
@@ -303,7 +303,7 @@ function About() {
         </div>
       </section>
       <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
           <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
             Architectural Photography
           </h2>
@@ -324,7 +324,7 @@ function About() {
         </div>
       </section>
       <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 bg-accent rounded-3xl lg:rounded-full lg:rounded-tl-none ">
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 bg-accent rounded-3xl lg:rounded-full lg:rounded-tl-none ">
           <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
             Self Published Books
           </h2>
@@ -359,7 +359,7 @@ function About() {
         </div>
       </section>
       <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
           <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
             Travel & Adventure
           </h2>
@@ -384,7 +384,7 @@ function About() {
         </div>
       </section>
       <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 bg-success rounded-3xl lg:rounded-full lg:rounded-tl-none ">
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 bg-success rounded-3xl lg:rounded-full lg:rounded-tl-none ">
           <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
             Book Recommendations
           </h2>
