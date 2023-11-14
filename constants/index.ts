@@ -59,7 +59,7 @@ export const whyHireMe = [
   {
     title: "Perseverance over Perfection",
     description:
-      "I've worked design projects wit over 100+ iterations. With each iteration and feedback, I've learnt that perfect designs don't exist.Progress is better than waiting for perfection.",
+      "I've worked design projects with over 100+ iterations. With each iteration and feedback, I've learnt that perfect designs don't exist.Progress is better than waiting for perfection.",
     icon: "/clock.svg",
   },
 ];
