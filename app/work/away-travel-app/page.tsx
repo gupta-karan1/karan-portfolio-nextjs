@@ -9,6 +9,7 @@ import Design from "@/components/away-app/Design";
 import Development from "@/components/away-app/Development";
 import Conclusion from "@/components/away-app/Conclusion";
 import ProjectFooter from "@/components/ProjectFooter";
+import UserFlow from "@/components/away-app/UserFlow";
 
 export const metadata: Metadata = {
   title: "Away App - Karan - Portfolio",
@@ -28,6 +29,7 @@ function page() {
       <Research />
       <Design />
       <Development />
+      <UserFlow />
 
       <Conclusion />
 

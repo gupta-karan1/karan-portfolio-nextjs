@@ -23,7 +23,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "daisyui": "^3.8.2",
+    "daisyui": "^4.0.7",
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
