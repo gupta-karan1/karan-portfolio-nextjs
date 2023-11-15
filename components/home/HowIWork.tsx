@@ -21,7 +21,7 @@ function HowIWork() {
                 key={work.title}
                 title={work.title}
                 description={work.description}
-                styles="bg-neutral-focus text-neutral-content lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
+                styles="bg-base-100 text-neutral-content lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
                 icon={work.icon}
               />
             </motion.div>

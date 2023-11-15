@@ -26,7 +26,7 @@ function WhyHireMe() {
                   key={item.title}
                   title={item.title}
                   description={item.description}
-                  styles="bg-neutral-focus text-neutral-content lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
+                  styles="bg-base-100 text-neutral-content lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
                   icon={item.icon}
                 />
               </motion.div>

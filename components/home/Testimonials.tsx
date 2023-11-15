@@ -24,7 +24,7 @@ function Testimonials() {
                 key={index}
               >
                 <div
-                  className="card w-auto h-auto xl:h-96  bg-neutral-focus shadow-xl "
+                  className="card w-auto h-auto xl:h-96  bg-base-100 shadow-xl "
                   key={index}
                 >
                   <div className="card-body justify-between">
