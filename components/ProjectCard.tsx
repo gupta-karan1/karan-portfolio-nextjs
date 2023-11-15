@@ -40,17 +40,6 @@ const ProjectCard = ({
         {/* <p className="font-light line-clamp-5 text-sm">{description}</p> */}
 
         <div className="card-actions justify-end mt-5 items-center">
-          {demo && (
-            <Link
-              className="btn  btn-outline btn-md"
-              href={demo}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo <LinkArrow />
-            </Link>
-          )}
-
           {github && (
             <Link
               className="btn  btn-outline btn-md"
@@ -59,6 +48,17 @@ const ProjectCard = ({
               rel="noopener noreferrer"
             >
               GitHub <LinkArrow />
+            </Link>
+          )}
+
+          {demo && (
+            <Link
+              className="btn  btn-outline btn-md"
+              href={demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Demo <LinkArrow />
             </Link>
           )}
 
