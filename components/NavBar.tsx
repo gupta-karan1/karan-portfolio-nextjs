@@ -64,7 +64,7 @@ const NavBar = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu w-9/12 lg:w-4/12 min-h-full bg-gradient-to-tr from-primary to-accent-focus  gap-5 text-primary-content rounded-3xl lg:rounded-b-full  ">
+            <ul className="menu w-9/12 lg:w-4/12 min-h-full bg-gradient-to-tr from-primary to-accent  gap-5 text-primary-content rounded-3xl lg:rounded-b-full  ">
               <li className="self-end ">
                 <label
                   htmlFor="my-drawer-4"
