@@ -32,7 +32,7 @@ const education = [
 
 const professional = [
   {
-    title: "Frontend Web Developer",
+    title: "UX/UI Designer & Developer",
     company: "OneBill Utilities Ltd.",
     duration: "August 2023 - September 2023",
     description:
@@ -46,7 +46,7 @@ const professional = [
       "Offering efficient and friendly customer service at the till, handling over 1,000+ transactions & 5000-euro sales/daily, enhancing customer satisfaction and repeat business. Managing stock levels by monitoring 200+ inventory items, restocking items, and organizing displays to enhance the shopping environment. ",
   },
   {
-    title: "Visual Designer & Project Architect",
+    title: "UX/UI Designer & Project Architect",
     company: "ANA Design Studio Pvt Ltd, Delhi, India ",
     duration: "February 2020 - July 2022",
     description:
