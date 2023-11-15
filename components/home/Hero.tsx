@@ -119,7 +119,7 @@ export default function Hero() {
               I'm an <span className="font-semibold">Architect</span> turned{" "}
               <span className="font-semibold">UX/UI Designer</span> with a flair
               for <span className="font-semibold">Frontend Development</span>{" "}
-              and 3+ years of experience.
+              and 4 years of experience.
             </h2>
             <br />
             <h2 className="text-lg xl:text-2xl text-primary-content font-light">
