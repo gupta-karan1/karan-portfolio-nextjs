@@ -47,7 +47,7 @@ function AboutHero() {
         >
           <figure className="w-full h-full  ">
             <Image
-              src="/assets/about/profile-about2.jpg"
+              src="/assets/about/profile/profile-about2.jpg"
               width={900}
               height={900}
               alt="karan"
