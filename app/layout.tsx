@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="forest">
+    <html lang="en" data-theme="corporate">
       <body className={lexend.className}>
         <NavBar />
 
