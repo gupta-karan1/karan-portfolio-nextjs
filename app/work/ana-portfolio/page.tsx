@@ -1,4 +1,6 @@
-import ProjectFooter from "@/components/ProjectFooter";
+import Image from "next/image";
+import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
+import Breadcrumb from "@/components/Breadcrumb";
 
 import { Metadata } from "next";
 
@@ -8,108 +10,150 @@ export const metadata: Metadata = {
     "Karan Gupta - Portfolio Website - UX Designer & Developer - Dublin, Ireland",
 };
 
-function AnaPortfolio() {
+function page() {
   return (
-    <main className="bg-base-300">
-      <section
-        className="min-h-screen py-5 px-10 flex flex-col justify-end "
-        style={{
-          backgroundImage: "url('/assets/ana-portfolio/portfolio-1.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "scroll",
-        }}
-      >
-        <div className="text-neutral-content">
-          <div className="bg-neutral bg-opacity-90 lg:w-max p-3 rounded">
-            <p className="text-md">
-              Presenting ANA Design Studio's 26+ Years of Excellence:
-            </p>
-            <h1 className="text-4xl">ANA's Brand Portfolio</h1>
-          </div>
-        </div>
+    <main className="overflow-hidden flex flex-col items-center justify-center gap-10 px-5">
+      <section className="pt-20 w-full md:max-w-5xl">
+        <Breadcrumb />
+        <h1 className="text-center font-light  md:text-3xl mb-5 ">
+          Architectural Legacy Unveiled:
+        </h1>
+        <h1 className="text-center font-bold text-2xl md:text-6xl md:leading-tight mb-5">
+          Presenting ANA Design Studio's 26+ Years of Excellence Through a Brand
+          Portfolio
+        </h1>
+        <p className="md:text-xl text-center">
+          This project exemplifies the art of transforming extensive experience
+          into a visually compelling portfolio. ANA Design Studio's brand
+          portfolio stands as a testament to their architectural prowess,
+          positioning them as a recognized thought leader in the industry.
+        </p>
       </section>
-      <section
-        className="h-[1080px] py-5 px-10 flex flex-col justify-end "
-        style={{
-          backgroundImage: "url('/assets/ana-portfolio/portfolio-2.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "scroll",
-        }}
-      >
-        <div className="text-neutral-content">
-          <div className="bg-neutral bg-opacity-90 w-full lg:w-6/12 p-3 rounded">
-            <h1 className="text-4xl mb-2">The Problem</h1>
-            <p className="text-md ">
-              ANA Design Studio, an architecture consultancy based in Delhi,
-              India, had over 26 years of experience in the industry, but they
-              had not documented any of their 100+ projects. They wanted a way
-              to showcase their vast experience, knowledge, and expertise with
-              industry experts, potential clients, academicians, students of
-              architecture, and employees. Most large scale architecture
-              companies were already publishing their portfolio and gaining a
-              lot of publicity and recognition. ANA Design Studio wanted to do
-              the same, to become a thought leader in the industry.
-            </p>
-          </div>
-        </div>
+
+      <Image
+        src="/assets/ana-portfolio/portfolio-1.png"
+        width="1920"
+        height="1080"
+        alt="ANA Brand portfolio"
+        placeholder="blur"
+        blurDataURL="/assets/ana-portfolio/portfolio-1.png"
+        className="mb-10 w-full 2xl:max-w-7xl"
+      />
+
+      <section className="max-w-3xl">
+        <h3>Overview </h3>
+        <h2 className="font-semibold text-3xl mb-5">
+          Crafting a Timeless Portfolio for 26+ Years of Excellence in
+          Architecture, Engineering & Construction
+        </h2>
+        <p>
+          ANA Design Studio, a distinguished architecture consultancy in Delhi,
+          India, embarked on a mission to showcase over 26 years of
+          architectural expertise. Despite a rich history of 100+ projects, they
+          lacked a documented portfolio. The goal was clear - to become a
+          recognized industry thought leader and share their wealth of
+          experience with experts, clients, academia, students, and potential
+          hires.
+        </p>
+
+        <a
+          href="https://issuu.com/anadesignstudio/docs/ana_portfolio_draft_31.03.2021_r2"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          View Draft Portfolio{" "}
+          <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
-      <section
-        className="h-[1080px] py-5 px-10 flex flex-col justify-end "
-        style={{
-          backgroundImage: "url('/assets/ana-portfolio/portfolio-4.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "scroll",
-        }}
-      >
-        <div className="text-neutral-content">
-          <div className="bg-neutral bg-opacity-90 w-full lg:w-6/12 p-3 rounded">
-            <h1 className="text-4xl mb-2">The Solution</h1>
-            <p className="text-md ">
-              After 3 months of research, documentation, polishing architecture
-              graphics, and creating a portfolio structure divided by project
-              types, I designed a 300+ page brand portfolio using Adobe
-              InDesign, Photoshop and Illustrator. Every project case study was
-              designed with a consistent layout, images and graphics, all
-              telling the story of the project from the architectural stage, to
-              engineering design, finishing at the construction stage.
-            </p>
-          </div>
-        </div>
+
+      <Image
+        src="/assets/ana-portfolio/portfolio-2.png"
+        width="1920"
+        height="1080"
+        alt="ANA Brand portfolio"
+        placeholder="blur"
+        blurDataURL="/assets/ana-portfolio/portfolio-2.png"
+        className="mb-10 w-full 2xl:max-w-7xl"
+      />
+
+      <section className="max-w-3xl">
+        <h3>The Problem</h3>
+        <h2 className="font-semibold text-3xl mb-5">
+          Hidden Brilliance Seeking Recognition in a Competitive Market
+        </h2>
+        <p>
+          Despite their extensive experience, ANA Design Studio faced a critical
+          void - none of their remarkable projects were documented. While other
+          major architecture firms were leveraging portfolios to gain
+          recognition, ANA Design Studio sought to join the ranks of industry
+          leaders and gain the publicity they deserved.
+        </p>
       </section>
-      <section
-        className="h-[1080px] py-5 px-10 flex flex-col justify-end mb-5 "
-        style={{
-          backgroundImage: "url('/assets/ana-portfolio/portfolio-3.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "scroll",
-        }}
-      >
-        <div className="text-neutral-content">
-          <div className="bg-neutral bg-opacity-90 w-full lg:w-6/12 p-3 rounded">
-            <h1 className="text-4xl mb-2">The Challenge</h1>
-            <p className="text-md ">
-              The biggest challenge was to compress 26+ years of work and
-              experience into a concise, minimal, and visually appealing
-              portfolio. Designing a project case study based on its story from
-              start to finish was a challenge along with ensuring technical
-              jargon was avoided. I had to ensure that the design was consistent
-              across all projects, and that the brand portfolio was consistent
-              with the brand guidelines.
-            </p>
-          </div>
-        </div>
+
+      <Image
+        src="/assets/ana-portfolio/portfolio-3.png"
+        width="1920"
+        height="1080"
+        alt="ANA Brand portfolio"
+        placeholder="blur"
+        blurDataURL="/assets/ana-portfolio/portfolio-3.png"
+        className="mb-10 w-full 2xl:max-w-7xl"
+      />
+      <section className="max-w-3xl">
+        <h3>The Solution</h3>
+        <h2 className="font-semibold text-3xl mb-5">
+          A 300+ Page Visual Chronicle of ANA Design Studio's Architectural
+          Brilliance
+        </h2>
+        <p>
+          After an intensive 3-month endeavor involving in-depth research,
+          meticulous documentation, refinement of architectural graphics, and
+          structuring a comprehensive portfolio, I brought ANA Design Studio's
+          vision to life. Using Adobe InDesign, Photoshop, and Illustrator, I
+          meticulously crafted a 300+ page brand portfolio. Each project case
+          study adhered to a consistent layout, featuring compelling images and
+          graphics that narrated the story of the project - from its
+          architectural inception through engineering design, culminating in the
+          construction stage.
+        </p>
       </section>
-      <ProjectFooter />
+
+      <Image
+        src="/assets/ana-portfolio/portfolio-4.png"
+        width="1920"
+        height="1080"
+        alt="ANA Brand portfolio"
+        placeholder="blur"
+        blurDataURL="/assets/ana-portfolio/portfolio-4.png"
+        className="mb-10 w-full 2xl:max-w-7xl"
+      />
+      <section className="max-w-3xl ">
+        <h3>The Challenge</h3>
+        <h2 className="font-semibold text-3xl mb-5">
+          Distilling Complexity into Simplicity to Create a Timeless Portfolio
+        </h2>
+        <p>
+          The most formidable challenge lay in distilling 26+ years of prolific
+          work into a concise, visually captivating portfolio. Designing each
+          project case study as a narrative journey from conception to
+          completion demanded finesse, ensuring avoidance of technical jargon.
+          Maintaining consistency across diverse projects and aligning the brand
+          portfolio with existing brand guidelines added an extra layer of
+          complexity.
+        </p>
+      </section>
+      <Image
+        src="/assets/ana-portfolio/portfolio-1.png"
+        width="1920"
+        height="1080"
+        alt="ANA Brand portfolio"
+        placeholder="blur"
+        blurDataURL="/assets/ana-portfolio/portfolio-1.png"
+        className="mb-10 w-full 2xl:max-w-7xl"
+      />
     </main>
   );
 }
 
-export default AnaPortfolio;
+export default page;

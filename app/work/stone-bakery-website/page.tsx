@@ -69,16 +69,6 @@ function page() {
         </a>
       </section>
 
-      {/* <iframe
-      width="900"
-      height="506"
-      src="https://www.youtube.com/embed/-v5KsE6YOis?si=MEbmL06hPEpg6smS"
-      title="YouTube video player"
-      allowFullScreen
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      className="w-full h-full md:max-w-3xl md:h-[506px]"
-    ></iframe> */}
-
       <Image
         src="/assets/stone-bakery/stone-screens.jpg"
         width="1280"
