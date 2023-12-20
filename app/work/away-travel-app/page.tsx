@@ -1023,13 +1023,13 @@ function page() {
       </section>
 
       <Image
-        src="/assets/away-app/away-last.jpg"
+        src="/assets/away-app/away-cover.jpg"
         width="1280"
         height="720"
         alt="Away App Conclusion"
         className="w-full lg:max-w-4xl xl:max-w-6xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/away-app/away-last.jpg"
+        blurDataURL="/assets/away-app/away-cover.jpg"
       />
     </main>
   );

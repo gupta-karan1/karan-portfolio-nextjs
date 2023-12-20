@@ -27,12 +27,12 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-cover.jpg"
+        src="/assets/stone-bakery/stone-hero.jpg"
         width="1920"
         height="1080"
-        alt="Ana Website Hero"
+        alt="Stone Bakery Website Hero"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-cover.jpg"
+        blurDataURL="/assets/stone-bakery/stone-hero.jpg"
         className="mb-10 w-full 2xl:max-w-7xl"
       />
 
@@ -79,17 +79,15 @@ function page() {
       className="w-full h-full md:max-w-3xl md:h-[506px]"
     ></iframe> */}
 
-      <div className="w-full lg:max-w-4xl xl:max-w-5xl mb-10 overflow-y-scroll h-[600px] bg-base-200 border-2">
-        <Image
-          src="/assets/ana-website/ana-hero.jpeg"
-          width="1280"
-          height="720"
-          alt="ANA Project Case Study"
-          className="w-full lg:max-w-4xl xl:max-w-5xl overflow-scroll"
-          placeholder="blur"
-          blurDataURL="/assets/ana-website/ana-hero.jpeg"
-        />
-      </div>
+      <Image
+        src="/assets/stone-bakery/stone-screens.jpg"
+        width="1280"
+        height="720"
+        alt="Stone Bakery Branding"
+        className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
+        placeholder="blur"
+        blurDataURL="/assets/stone-bakery/stone-screens.jpg"
+      />
       <section className="max-w-3xl">
         <h3>Brand Design</h3>
         <h2 className="font-semibold text-3xl mb-5">
@@ -107,13 +105,13 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-social.jpg"
+        src="/assets/stone-bakery/stone-branding.png"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-social.jpg"
+        blurDataURL="/assets/stone-bakery/stone-branding.png"
       />
 
       <section className="max-w-3xl">
@@ -132,13 +130,13 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-style.jpg"
+        src="/assets/stone-bakery/stone-mobile.png"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-style.jpg"
+        blurDataURL="/assets/stone-bakery/stone-mobile.png"
       />
 
       <section className="max-w-3xl">
@@ -160,25 +158,14 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-projects.jpg"
+        src="/assets/stone-bakery/stone-sketch.jpg"
         width="1280"
         height="720"
-        alt="ANA Project Case Study"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-projects.jpg"
+        blurDataURL="/assets/stone-bakery/stone-sketch.jpg"
       />
-      <div className="w-full lg:max-w-4xl xl:max-w-5xl mb-10 overflow-y-scroll h-[600px] bg-base-200 border-2">
-        <Image
-          src="/assets/ana-website/ana-case-study.jpeg"
-          width="1280"
-          height="720"
-          alt="ANA Project Case Study"
-          className="w-full lg:max-w-4xl xl:max-w-5xl overflow-scroll"
-          placeholder="blur"
-          blurDataURL="/assets/ana-website/ana-case-study.jpeg"
-        />
-      </div>
 
       <section className="max-w-3xl ">
         <h3>Home Baking Feature</h3>
@@ -188,37 +175,32 @@ function page() {
         </h2>
         <p>
           Encountering measurement challenges in home baking? Introducing the
-          Bakery Unit Converter – a game-changer for home bakers. Seamlessly
+          Bakery Unit Converter - a game-changer for home bakers. Seamlessly
           developed, this feature empowers bakers to effortlessly convert baking
           units, providing instant precision in every culinary creation. Elevate
           your baking experience with this essential tool designed for
           perfection in the heart of your kitchen.
         </p>
       </section>
-
       <Image
-        src="/assets/ana-website/ana-services.jpg"
+        src="/assets/stone-bakery/stone-convert.png"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-services.jpg"
+        blurDataURL="/assets/stone-bakery/stone-convert.png"
       />
 
-      <div className="w-full lg:max-w-4xl xl:max-w-5xl mb-10 overflow-y-scroll h-[600px] bg-base-200 border-2">
-        <Image
-          src="/assets/ana-website/ana-engineering.jpeg"
-          width="1280"
-          height="720"
-          alt="ANA Project Case Study"
-          className="w-full lg:max-w-4xl xl:max-w-5xl overflow-scroll"
-          placeholder="blur"
-          blurDataURL="/assets/ana-website/ana-engineering.jpeg"
+      <video loop muted width={300} height={600} controls>
+        <source
+          src="/assets/stone-bakery/unit-converter.mp4"
+          type="video/mp4"
         />
-      </div>
+        Your browser does not support the video tag.
+      </video>
 
-      <section className="max-w-3xl ">
+      <section className="max-w-3xl">
         <h3>Bakery Shopping Feature</h3>
         <h2 className="font-semibold text-3xl mb-5">
           Bakery Shopping List allows bakers to quickly add items they wish to
@@ -235,14 +217,19 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-photos.jpg"
+        src="/assets/stone-bakery/stone-list.png"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-photos.jpg"
+        blurDataURL="/assets/stone-bakery/stone-list.png"
       />
+
+      <video loop muted width={300} height={600} controls>
+        <source src="/assets/stone-bakery/shopping-list.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       <section className="max-w-3xl ">
         <h3>Shopping Cart Feature</h3>
@@ -264,14 +251,25 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-about.jpg"
+        src="/assets/stone-bakery/stone-cart.jpg"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-about.jpg"
+        blurDataURL="/assets/stone-bakery/stone-cart.jpg"
       />
+      <video
+        loop
+        muted
+        width={1280}
+        height={720}
+        controls
+        className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
+      >
+        <source src="/assets/stone-bakery/cart.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       <section className="max-w-3xl ">
         <h3>Social Proof</h3>
@@ -292,17 +290,15 @@ function page() {
         </p>
       </section>
 
-      <div className="w-full lg:max-w-4xl xl:max-w-5xl mb-10 overflow-y-scroll h-[600px] bg-base-200 border-2">
-        <Image
-          src="/assets/ana-website/ana-blog.jpeg"
-          width="1280"
-          height="720"
-          alt="ANA Project Case Study"
-          className="w-full lg:max-w-4xl xl:max-w-5xl overflow-scroll"
-          placeholder="blur"
-          blurDataURL="/assets/ana-website/ana-blog.jpeg"
-        />
-      </div>
+      <Image
+        src="/assets/stone-bakery/stone-social.jpg"
+        width="1280"
+        height="720"
+        alt="Stone Bakery Branding"
+        className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
+        placeholder="blur"
+        blurDataURL="/assets/stone-bakery/stone-social.jpg"
+      />
 
       <section className="max-w-3xl ">
         <h3>Imagery</h3>
@@ -322,13 +318,13 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-impact.jpg"
+        src="/assets/stone-bakery/stone-photos.jpg"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-impact.jpg"
+        blurDataURL="/assets/stone-bakery/stone-photos.jpg"
       />
 
       <section className="max-w-3xl ">
@@ -350,17 +346,15 @@ function page() {
         </p>
       </section>
 
-      <div className="w-full lg:max-w-4xl xl:max-w-5xl mb-10 overflow-y-scroll h-[600px] bg-base-200 border-2">
-        <Image
-          src="/assets/ana-website/ana-work.jpeg"
-          width="1280"
-          height="720"
-          alt="ANA Project Case Study"
-          className="w-full lg:max-w-4xl xl:max-w-5xl overflow-scroll"
-          placeholder="blur"
-          blurDataURL="/assets/ana-website/ana-work.jpeg"
-        />
-      </div>
+      <Image
+        src="/assets/stone-bakery/logo.jpg"
+        width="1280"
+        height="720"
+        alt="Stone Bakery Branding"
+        className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
+        placeholder="blur"
+        blurDataURL="/assets/stone-bakery/logo.jpg"
+      />
 
       <section className="max-w-3xl ">
         <h3>Web Development</h3>
@@ -375,16 +369,26 @@ function page() {
           approach involves harnessing the power of these core technologies to
           create engaging and user-friendly components and features.
         </p>
+
+        <a
+          href="https://github.com/gupta-karan1/the-stone-bakery"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          GitHub Repository{" "}
+          <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
-        src="/assets/ana-website/ana-impact.jpg"
+        src="/assets/stone-bakery/stone-dev.jpg"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-impact.jpg"
+        blurDataURL="/assets/stone-bakery/stone-dev.jpg"
       />
       <section className="max-w-3xl ">
         <h3>HTML Forms</h3>
@@ -403,13 +407,13 @@ function page() {
       </section>
 
       <Image
-        src="/assets/ana-website/ana-impact.jpg"
+        src="/assets/stone-bakery/stone-forms.jpg"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-impact.jpg"
+        blurDataURL="/assets/stone-bakery/stone-forms.jpg"
       />
       <section className="max-w-3xl ">
         <h3>Challenges & Lessons</h3>
@@ -426,16 +430,26 @@ function page() {
           e-commerce complexities, ensuring a seamless experience for users of
           all ages.
         </p>
+
+        <a
+          href="https://drive.google.com/file/d/12Okdy2bkvOhKQI2G19k2y7xTRQHxUtVa/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Project Documentation{" "}
+          <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
-        src="/assets/ana-website/ana-impact.jpg"
+        src="/assets/stone-bakery/stone-hero.jpg"
         width="1280"
         height="720"
-        alt="Away App Objective 1"
+        alt="Stone Bakery Branding"
         className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
         placeholder="blur"
-        blurDataURL="/assets/ana-website/ana-impact.jpg"
+        blurDataURL="/assets/stone-bakery/stone-hero.jpg"
       />
     </main>
   );
