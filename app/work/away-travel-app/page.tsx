@@ -1,17 +1,8 @@
-// import Objectives from "@/components/away-app/Objectives";
-// import Context from "@/components/away-app/Context";
-// import Hero from "@/components/away-app/Hero";
-// import Problem from "@/components/away-app/Problem";
-
 import { Metadata } from "next";
-// import Design from "@/components/away-app/Design";
-// import Development from "@/components/away-app/Development";
-// import Conclusion from "@/components/away-app/Conclusion";
-// import ProjectFooter from "@/components/ProjectFooter";
-// import UserFlow from "@/components/away-app/UserFlow";
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
 import CompetitiveAnalysis from "@/components/away-app/CompetitiveAnalysis";
+import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
 export const metadata: Metadata = {
   title: "Away App - Karan - Portfolio",
@@ -22,21 +13,6 @@ export const metadata: Metadata = {
 function page() {
   return (
     <main className="overflow-hidden flex flex-col items-center justify-center gap-10 px-5">
-      {/* <Hero />
-
-      <Context />
-      <Problem />
-      <Objectives />
-
-      <Research />
-      <Design />
-      <Development />
-      <UserFlow />
-
-      <Conclusion />
-
-      <ProjectFooter /> */}
-
       <section className="pt-20 w-full md:max-w-5xl">
         <Breadcrumb />
         <h1 className="text-center font-light  md:text-3xl mb-5 ">
@@ -59,7 +35,7 @@ function page() {
         alt="Away App Hero"
         placeholder="blur"
         blurDataURL="/assets/away-app/away-cover.jpg"
-        className="mb-10 w-full"
+        className="mb-10 w-full 2xl:max-w-7xl"
       />
 
       <section className="max-w-3xl">
@@ -82,15 +58,15 @@ function page() {
         </p>
       </section>
 
-      <Image
-        src="/assets/away-app/away-objective-1.jpg"
-        width="1280"
-        height="720"
-        alt="Away App Hero"
-        className="w-full lg:max-w-4xl xl:max-w-5xl mb-10"
-        placeholder="blur"
-        blurDataURL="/assets/away-app/away-objective-1.jpg"
-      />
+      <iframe
+        width="900"
+        height="506"
+        src="https://www.youtube-nocookie.com/embed/1uMOE-ylnrA?si=OFdJ8E_oGtr8MuRT"
+        title="YouTube video player"
+        allowFullScreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        className="w-full h-full md:max-w-3xl md:h-[506px]"
+      ></iframe>
       <section className="max-w-3xl">
         <h3>Objective - Simplification</h3>
         <h2 className="font-semibold text-3xl mb-5">
@@ -255,7 +231,7 @@ function page() {
         height="720"
         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F24NQas68NpCUYt4Is51yWF%2FTravel-App---User-Problems%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dk2S0DZ9CZQQpzbJo-1"
         allowFullScreen
-        className="bg-neutral-content mb-10"
+        className="bg-neutral-content mb-10 w-full h-full md:max-w-5xl md:h-[720px]"
       ></iframe>
 
       <section className="max-w-3xl ">
@@ -276,6 +252,14 @@ function page() {
           planning as a primary concern. This led to a valuable lesson: focusing
           on core issues rather than attempting to solve every problem.
         </p>
+        <a
+          href="https://www.figma.com/proto/64tkAsYoT24KXxOBPvcOEC/1st_Pitch?type=design&node-id=4-2&scaling=contain&page-id=0%3A1"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Figma Link <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -361,6 +345,15 @@ function page() {
           identified in the explore section's navigation and wishlist
           integration.
         </p>
+
+        <a
+          href="https://www.figma.com/proto/pNfVZuXHQmU5SZsRQcrEXA/Prototype-23%2F02?type=design&node-id=2-3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Figma Link <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -394,6 +387,15 @@ function page() {
           without leaving a trip plan but expressed confusion about the
           labelling of "Explore" in navigation.
         </p>
+
+        <a
+          href="https://www.figma.com/proto/czd1volA7sxLl5YdWQmoPQ/Pitch-2-Presentation?type=design&node-id=1-5&scaling=contain&page-id=0%3A1"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Figma Link <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -429,11 +431,12 @@ function page() {
         </p>
       </section>
       <iframe
-        width="560"
-        height="315"
+        width="900"
+        height="506"
         src="https://www.youtube-nocookie.com/embed/eqmRAftvTXA?si=gn_IQ9_B3s3UiGWl"
         title="YouTube video player"
         allowFullScreen
+        className="w-full h-full md:max-w-3xl md:h-[506px] "
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
       <Image
@@ -464,6 +467,15 @@ function page() {
           focusing on a simple micro user flow to understand how users complete
           a single task proved effective.
         </p>
+
+        <a
+          href="https://www.figma.com/file/sXgrWqoeuuCulnJZS6UCpx/Away-App-Pitch-3?type=design&node-id=0%3A1&t=GV7LTOd5jojztHTL-1"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Figma Link <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -502,6 +514,15 @@ function page() {
           suggested enhancements, such as category tags for places and articles,
           improved navigation options, and clarifications on certain features.
         </p>
+
+        <a
+          href="https://www.figma.com/file/iTfekJIfVUvUQwcpzd73O9/1st-Wireframe_28.02.2023?type=design&node-id=0%3A1&t=JlBO14UQpRejxQe1-1"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Figma Link <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -536,6 +557,15 @@ function page() {
           editing trip details after submission, and options to save and share
           trip plans.
         </p>
+
+        <a
+          href="https://www.figma.com/proto/3Hh08NUno9m160H45a8DYJ/Hi-Fi-Prototype?type=design&node-id=56-10718&scaling=scale-down&page-id=0%3A1&starting-point-node-id=56%3A10718&show-proto-sidebar=1"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Figma Link <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -589,6 +619,16 @@ function page() {
           testing and validation, we applied the final styling and refined the
           overall UX.
         </p>
+
+        <a
+          href="https://github.com/gupta-karan1/AwayApp"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          GitHub Repository{" "}
+          <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -617,6 +657,16 @@ function page() {
           to either itinerary or wishlist or both, resulting in an intuitive
           interaction.
         </p>
+
+        <a
+          href="https://docs.google.com/document/d/1u1THDx9E_ZneU6OW0oKZ05nDtSly_qtvmDVQoXnPWoU/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          User Testing Logs{" "}
+          <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <div className="carousel ">
@@ -821,6 +871,15 @@ function page() {
           while 30.8% rated it as useful, indicating a high overall satisfaction
           level among the respondents.
         </p>
+
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfunjmtPz6_D7pR5WDL0Us5QWnldBtpdSB83jlDRGEKEJ3CXA/viewform?usp=sf_link"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Survey Form <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -881,6 +940,15 @@ function page() {
           lesson was to prioritize features that truly enhanced the user
           experience.
         </p>
+
+        <a
+          href="https://trello.com/b/sS5guq2q/away-travel-planning-app-project-schedule"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Trello Board <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image
@@ -942,6 +1010,16 @@ function page() {
           implement structured feedback channels and prioritise user-driven
           improvements.
         </p>
+
+        <a
+          href="https://docs.google.com/document/d/1snJ9M9BQyhq1RXCPZSbzRi4x2nLTPO9gqlxLU8I00Q8/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-accent mt-5"
+        >
+          Project Documentation{" "}
+          <ArrowUpRightIcon className="h-4 w-4 inline-block" />
+        </a>
       </section>
 
       <Image

@@ -16,9 +16,9 @@
 
 /* Remove display of any scroll bars */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 /* :root {
   --foreground-rgb: 0, 0, 0;

@@ -2,16 +2,16 @@ import Image from "next/image";
 
 function CompetitiveAnalysis() {
   return (
-    <div className="overflow-scroll max-h-[600px] max-w-5xl border mb-10">
+    <div className="overflow-scroll max-h-[600px] w-full md:max-w-5xl border mb-10">
       <table className="table table-pin-rows table-pin-cols ">
         {/* head */}
         <thead>
           <tr>
-            <th className="w-1/12"> </th>
-            <th className=" w-2/12 ">Wanderlog</th>
-            <th className="w-2/12 ">TripAdvisor</th>
-            <th className="w-2/12 ">Culture Trip</th>
-            <th className="w-2/12 ">Lambus</th>
+            <th className="md:w-1/12"> </th>
+            <th className=" md:w-2/12 ">Wanderlog</th>
+            <th className="md:w-2/12 ">TripAdvisor</th>
+            <th className="md:w-2/12 ">Culture Trip</th>
+            <th className="md:w-2/12 ">Lambus</th>
           </tr>
         </thead>
         <tbody>
