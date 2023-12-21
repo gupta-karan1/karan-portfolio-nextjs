@@ -14,7 +14,7 @@ const ProjectCard = ({
 }: // tags,
 typeof ProjectCardTypes) => {
   return (
-    <div className="card w-auto lg:w-[410px] shadow-lg hover:shadow-xl 2xl:w-[450px] bg-base-100 ">
+    <div className="card rounded-none w-auto lg:w-[410px] shadow-lg hover:shadow-xl 2xl:w-[450px] bg-base-100 ">
       <figure>
         <Image
           src={image}
