@@ -12,10 +12,7 @@
     "@heroicons/react": "^2.0.18",
     "next": "latest",
     "react": "latest",
-    "react-compare-image": "^3.4.0",
-    "react-dom": "latest",
-    "styled-components": "^6.1.0",
-    "swiper": "^10.3.1"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
