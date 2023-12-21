@@ -1,7 +1,5 @@
-"use client";
 import TextCard from "@/components/TextCard";
 import { howIWork } from "@/constants";
-import { motion } from "framer-motion";
 
 function HowIWork() {
   return (
@@ -11,19 +9,13 @@ function HowIWork() {
       </h2>
       <div className="flex lg:grid lg:grid-cols-3  gap-10 items-center justify-center flex-wrap px-5 ">
         {howIWork.map((work, index) => (
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            key={index}
-          >
-            <TextCard
-              key={work.title}
-              title={work.title}
-              description={work.description}
-              styles="bg-base-200 lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
-              icon={work.icon}
-            />
-          </motion.div>
+          <TextCard
+            key={work.title}
+            title={work.title}
+            description={work.description}
+            styles="bg-base-200 lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
+            icon={work.icon}
+          />
         ))}
       </div>
     </section>

@@ -7,9 +7,7 @@ import {
   CubeTransparentIcon,
   LightBulbIcon,
   PencilSquareIcon,
-  SparklesIcon,
   UserCircleIcon,
-  UsersIcon,
   ArrowUpRightIcon,
 } from "@heroicons/react/20/solid";
 import Image from "next/image";

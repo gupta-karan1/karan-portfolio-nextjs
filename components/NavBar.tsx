@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import LinkArrow from "./LinkArrow";
+import { useEffect, useState } from "react";
 import {
   ArrowUpRightIcon,
   Bars3CenterLeftIcon,
