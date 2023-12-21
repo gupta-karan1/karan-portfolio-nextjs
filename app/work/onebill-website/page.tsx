@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
+import ProjectFooter from "@/components/ProjectFooter";
 
 export const metadata: Metadata = {
   title: "OneBill Website - Karan - Portfolio",
@@ -296,6 +297,8 @@ function page() {
         placeholder="blur"
         blurDataURL="/assets/onebill-website/onebill-hero.jpg"
       />
+
+      <ProjectFooter />
     </main>
   );
 }

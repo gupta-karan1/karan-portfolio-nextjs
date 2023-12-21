@@ -1,14 +1,15 @@
 // import { homeProjects } from "@/constants";
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import { motion } from "framer-motion";
 
 const ProjectGrid = ({ projects }: { projects: Array<any> }) => {
   const [showMore, setShowMore] = useState(false);
+
   return (
     <div className="flex flex-col items-center justify-center gap-10">
-      <div className="flex flex-wrap xl:gap-10 2xl:gap-20 gap-5 items-center justify-center">
+      <div className="flex flex-wrap xl:gap-10 gap-5 items-center justify-center">
         {projects
           .map((project, index) => (
             <motion.div
@@ -25,6 +26,7 @@ const ProjectGrid = ({ projects }: { projects: Array<any> }) => {
                 github={project.github || ""}
                 demo={project.demo || ""}
                 tags={project.tags}
+                externalLink={project.externalLink || ""}
               />
             </motion.div>
           ))

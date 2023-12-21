@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
+import ProjectFooter from "@/components/ProjectFooter";
 
 export const metadata: Metadata = {
   title: "Stone Bakery Website - Karan - Portfolio",
@@ -441,6 +442,8 @@ function page() {
         placeholder="blur"
         blurDataURL="/assets/stone-bakery/stone-hero.jpg"
       />
+
+      <ProjectFooter />
     </main>
   );
 }

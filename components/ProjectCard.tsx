@@ -1,41 +1,39 @@
 import Image from "next/image";
 import { ProjectCardTypes } from "@/types";
 import Link from "next/link";
-import LinkArrow from "./LinkArrow";
+import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
 const ProjectCard = ({
   title,
-  description,
+  // description,
   image,
   link,
   github,
   demo,
-  tags,
-}: typeof ProjectCardTypes) => {
+  externalLink,
+}: // tags,
+typeof ProjectCardTypes) => {
   return (
-    <div className="card w-auto lg:w-[410px]  bg-base-100 shadow-2xl 2xl:w-[450px] ">
+    <div className="card w-auto lg:w-[410px] shadow-lg hover:shadow-xl 2xl:w-[450px] bg-base-100 ">
       <figure>
-        <Link href={link} target="_blank">
-          <Image
-            src={image}
-            alt="Project Placeholder"
-            width={600}
-            height={500}
-          />
-        </Link>
+        <Image
+          src={image}
+          className="bg-base-300"
+          alt="Project Placeholder"
+          width={600}
+          height={500}
+        />
       </figure>
       <div className="card-body gap-3 ">
-        <div className="flex flex-wrap gap-1">
+        {/* <div className="flex flex-wrap gap-1">
           {tags.map((tag: string) => (
             <span key={tag} className="badge font-light badge-secondary  ">
               {tag}
             </span>
           ))}
-        </div>
+        </div> */}
 
-        <Link href={link} target="_blank">
-          <h2 className="card-title  text-xl">{title}</h2>
-        </Link>
+        <h2 className="card-title  text-xl">{title}</h2>
 
         {/* <p className="font-light line-clamp-5 text-sm">{description}</p> */}
 
@@ -47,7 +45,7 @@ const ProjectCard = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub <LinkArrow />
+              GitHub <ArrowUpRightIcon className="w-5 h-5" />
             </Link>
           )}
 
@@ -58,16 +56,23 @@ const ProjectCard = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              Demo <LinkArrow />
+              Demo <ArrowUpRightIcon className="w-5 h-5" />
+            </Link>
+          )}
+
+          {externalLink && (
+            <Link
+              className="btn  btn-primary text-white btn-md"
+              href={externalLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link <ArrowUpRightIcon className="w-5 h-5" />
             </Link>
           )}
 
           {link && (
-            <Link
-              className="btn btn-primary btn-md"
-              href={link}
-              target="_blank"
-            >
+            <Link className="btn btn-primary text-white btn-md" href={link}>
               Explore
             </Link>
           )}

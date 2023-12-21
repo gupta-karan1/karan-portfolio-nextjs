@@ -3,6 +3,7 @@ import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
 import CompetitiveAnalysis from "@/components/away-app/CompetitiveAnalysis";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
+import ProjectFooter from "@/components/ProjectFooter";
 
 export const metadata: Metadata = {
   title: "Away App - Karan - Portfolio",
@@ -1031,6 +1032,8 @@ function page() {
         placeholder="blur"
         blurDataURL="/assets/away-app/away-cover.jpg"
       />
+
+      <ProjectFooter />
     </main>
   );
 }

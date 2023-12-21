@@ -1,5 +1,6 @@
 import AboutHero from "@/components/about/AboutHero";
 import ContactMe from "@/components/home/ContactMe";
+import HowIWork from "@/components/home/HowIWork";
 import {
   AdjustmentsHorizontalIcon,
   ChatBubbleLeftRightIcon,
@@ -9,6 +10,7 @@ import {
   SparklesIcon,
   UserCircleIcon,
   UsersIcon,
+  ArrowUpRightIcon,
 } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
@@ -38,13 +40,13 @@ const professional = [
     description:
       "Designed & developed business website with 5+ responsive pages & onboarding form for introducing MVP to the market by understanding client requirements (short deadline & mobile responsive) with HTML, JS & Bootstrap. Implemented SEO best practices with keywords and meta description.",
   },
-  {
-    title: "Retail Assistant",
-    company: "Londis Parkgate Street",
-    duration: "July 2023 - Present",
-    description:
-      "Offering efficient and friendly customer service at the till, handling over 1,000+ transactions & 5000-euro sales/daily, enhancing customer satisfaction and repeat business. Managing stock levels by monitoring 200+ inventory items, restocking items, and organizing displays to enhance the shopping environment. ",
-  },
+  // {
+  //   title: "Retail Assistant",
+  //   company: "Londis Parkgate Street",
+  //   duration: "July 2023 - Present",
+  //   description:
+  //     "Offering efficient and friendly customer service at the till, handling over 1,000+ transactions & 5000-euro sales/daily, enhancing customer satisfaction and repeat business. Managing stock levels by monitoring 200+ inventory items, restocking items, and organizing displays to enhance the shopping environment. ",
+  // },
   {
     title: "UX/UI Designer & Project Architect",
     company: "ANA Design Studio Pvt Ltd, Delhi, India ",
@@ -128,53 +130,39 @@ const reasons = [
     title: "Because both are about user centered design",
     description:
       "Architecture is about designing spaces for people to live, work, and play. UX/UI Design is about designing digital products for people to use, enjoy, and share.",
-    icon: <UserCircleIcon className="h-10 w-10 text-neutral-content" />,
+    icon: <UserCircleIcon className="h-10 w-10 text-accent" />,
   },
   {
     title: "Because both are about problem solving",
     description:
       "Architecture is about solving problems of space, movement, and function. UX/UI Design is about solving problems of usability, accessibility, and desirability.",
-    icon: <PencilSquareIcon className="h-10 w-10 text-neutral-content" />,
+    icon: <PencilSquareIcon className="h-10 w-10 text-accent" />,
   },
-  {
-    title: "Because both are about creativity",
-    description:
-      "Architecture is about creating spaces that are beautiful, functional, and sustainable. UX/UI Design is about creating digital products that are functional, appealing and usable.",
-    icon: <SparklesIcon className="h-10 w-10 text-neutral-content" />,
-  },
+
   {
     title: "Because both need attention to detail",
     description:
       "Architecture is about designing spaces with building components, construction detailing, and precision. UX/UI Design is about designing digital experiences with design systems, components, and detailing.",
-    icon: <CubeTransparentIcon className="h-10 w-10 text-neutral-content" />,
+    icon: <CubeTransparentIcon className="h-10 w-10 text-accent" />,
   },
-  {
-    title: "Because both need empathy",
-    description:
-      "Architecture is about understanding the needs of the people who will use the space. UX/UI Design is about understanding the needs of the people who will use the product.",
-    icon: <UsersIcon className="h-10 w-10 text-neutral-content" />,
-  },
+
   {
     title: "Because both need critical thinking",
     description:
       "Architecture is about thinking critically about the impact of design decisions on the environment and society. UX/UI Design is about thinking critically about the impact of design decisions on the user and business.",
-    icon: <LightBulbIcon className="h-10 w-10 text-neutral-content" />,
+    icon: <LightBulbIcon className="h-10 w-10 text-accent" />,
   },
   {
     title: "Because both follow design thinking process",
     description:
       "Architecture is about following a design process of research, ideation, iteration, and implementation. UX/UI Design is about following a design process of research, ideation, iteration, and implementation. ",
-    icon: (
-      <AdjustmentsHorizontalIcon className="h-10 w-10 text-neutral-content" />
-    ),
+    icon: <AdjustmentsHorizontalIcon className="h-10 w-10 text-accent" />,
   },
   {
     title: "Because both involve collaboration",
     description:
       "Architecture is about collaborating with clients, engineers, and contractors. UX/UI Design is about collaborating with clients, developers, and stakeholders. ",
-    icon: (
-      <ChatBubbleLeftRightIcon className="h-10 w-10 text-neutral-content" />
-    ),
+    icon: <ChatBubbleLeftRightIcon className="h-10 w-10 text-accent" />,
   },
 ];
 
@@ -183,9 +171,10 @@ function About() {
   return (
     <main>
       <AboutHero />
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <HowIWork />
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Academic Background
           </h2>
 
@@ -193,13 +182,13 @@ function About() {
             {education.map((item, index) => (
               <div
                 key={index}
-                className="collapse collapse-plus bg-base-200 lg:w-9/12"
+                className="collapse collapse-plus bg-base-200 lg:w-9/12 rounded-none"
               >
                 <input type="checkbox" title="collapse" />
                 <div className="collapse-title text-xl font-medium">
                   <h2 className="lg:text-2xl">{item.degree}</h2>
                   <h3 className="lg:text-xl font-light">{item.university}</h3>
-                  <p className="lg:text-lg font-thin">{item.duration}</p>
+                  <p className="lg:text-lg font-extralight">{item.duration}</p>
                 </div>
                 <div className="collapse-content ">
                   <p>{item.description}</p>
@@ -209,9 +198,9 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 bg-primary rounded-3xl lg:rounded-full lg:rounded-tl-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 ">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Professional Background
           </h2>
 
@@ -219,13 +208,13 @@ function About() {
             {professional.map((item, index) => (
               <div
                 key={index}
-                className="collapse collapse-plus bg-base-200 lg:w-9/12"
+                className="collapse collapse-plus bg-base-200 lg:w-9/12 rounded-none"
               >
                 <input type="checkbox" title="collapse" />
                 <div className="collapse-title text-xl font-medium">
                   <h2 className="lg:text-2xl">{item.title}</h2>
                   <h3 className="lg:text-xl font-light">{item.company}</h3>
-                  <p className="lg:text-lg font-thin">{item.duration}</p>
+                  <p className="lg:text-lg font-extralight">{item.duration}</p>
                 </div>
                 <div className="collapse-content ">
                   <p>{item.description}</p>
@@ -235,25 +224,19 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 bg-accent rounded-3xl lg:rounded-full lg:rounded-tl-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
-            Technical & Non-Technical Skills
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 ">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
+            My Professional Skills
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-5 lg:px-20 px-5 ">
             {skills.map((item, index) => (
-              <div
-                className="bg-base-200  p-10 rounded-3xl lg:h-80"
-                key={index}
-              >
+              <div className="bg-base-200  p-10 lg:h-80" key={index}>
                 <h2 className="lg:text-2xl mb-5">{item.title}</h2>
 
                 <div className="flex  gap-2 flex-wrap">
                   {item.list.map((item, index) => (
-                    <span
-                      className="badge badge-lg badge-secondary text-secondary-content"
-                      key={index}
-                    >
+                    <span className="badge badge-lg badge-accent " key={index}>
                       {item}
                     </span>
                   ))}
@@ -263,15 +246,15 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 bg-success rounded-3xl  ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
-            From Architecture to UX/UI Design
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 ">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
+            Architecture to UX/UI Design
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center  gap-4 px-5 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center  gap-5 lg:gap-10 lg:px-20 px-5 ">
             {reasons.map((item, index) => (
-              <div className="card bg-base-200 lg:h-96" key={index}>
-                <div className="card-body  text-neutral-content">
+              <div className="card bg-base-200 lg:h-80" key={index}>
+                <div className="card-body  ">
                   {item.icon}
                   <h2 className="card-title">{item.title}</h2>
                   <p>{item.description}</p>
@@ -281,34 +264,34 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 bg-primary rounded-3xl lg:rounded-full lg:rounded-tl-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <section className="">
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 ">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Sketching & Rendering
           </h2>
 
-          <div className="carousel carousel-center max-w-6xl p-4 space-x-4 bg-neutral rounded-box">
+          <div className="carousel rounded-none carousel-center max-w-7xl p-4 space-x-4 bg-base-200 ">
             {array.map((item, index) => (
-              <div className="carousel-item" key={index}>
+              <div className="carousel-item rounded-none" key={index}>
                 <Image
                   src={`/assets/about/sketches/sketch-${item}.png`}
                   width={500}
                   height={500}
                   alt="sketching"
-                  className="rounded-box"
+                  className="rounded-none"
                 />
               </div>
             ))}
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Architectural Photography
           </h2>
 
-          <div className="carousel carousel-center max-w-6xl p-4 space-x-4 bg-neutral rounded-box">
+          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -316,25 +299,25 @@ function About() {
                   width={500}
                   height={500}
                   alt="Photography"
-                  className="rounded-box"
+                  className="rounded-none"
                 />
               </div>
             ))}
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 bg-accent rounded-3xl lg:rounded-full lg:rounded-tl-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 ">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Self Published Books
           </h2>
 
-          <p className="text-lg font-light lg:w-6/12 text-primary-content text-center">
+          <p className="text-lg font-light lg:w-6/12  text-center">
             I have written and self published 9+ books on branding, visual
             design, architecture life, self-help, angular development,
             creativity, and ux design.
           </p>
-          <div className="carousel carousel-center max-w-6xl p-4 space-x-4 bg-neutral rounded-box">
+          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -342,7 +325,7 @@ function About() {
                   width={500}
                   height={500}
                   alt="books"
-                  className="rounded-box"
+                  className="rounded-none"
                 />
               </div>
             ))}
@@ -350,25 +333,25 @@ function About() {
 
           <a
             href="https://www.amazon.co.uk/Karan-Gupta/e/B08VF66J7J?ref=sr_ntt_srch_lnk_1&qid=1698246554&sr=8-1"
-            className="btn btn-neutral"
+            className="btn btn-primary text-white"
             rel="noreferrer noopener"
             target="_blank"
           >
-            View on Amazon
+            View on Amazon <ArrowUpRightIcon className="w-5 h-5" />
           </a>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 bg-secondary rounded-3xl lg:rounded-full lg:rounded-tr-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Travel & Adventure
           </h2>
-          <p className="text-lg font-light lg:w-6/12 text-primary-content text-center">
+          <p className="text-lg font-light lg:w-6/12  text-center">
             I love traveling and exploring new places. I have been to 10+
             countries and 50+ cities. I believe traveling is the best way to
             learn about different cultures and people.
           </p>
-          <div className="carousel carousel-center max-w-6xl p-4 space-x-4 bg-neutral rounded-box">
+          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -376,25 +359,25 @@ function About() {
                   width={500}
                   height={500}
                   alt="books"
-                  className="rounded-box"
+                  className="rounded-none"
                 />
               </div>
             ))}
           </div>
         </div>
       </section>
-      <section className="bg-base-300 p-5">
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5 bg-success rounded-3xl lg:rounded-full lg:rounded-tl-none ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
+      <section>
+        <div className=" min-h-screen flex flex-col justify-center items-center gap-5 py-10 px-5">
+          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
             Book Recommendations
           </h2>
-          <p className="text-lg font-light lg:w-6/12 text-primary-content text-center">
+          <p className="text-lg font-light lg:w-6/12  text-center">
             As an avid reader, I have read 100+ books on various topics. I
             believe reading is the best way to learn from the experiences of
             others. Here are some of my favorite books.
           </p>
 
-          <div className="carousel carousel-center max-w-6xl p-4 space-x-4 bg-neutral rounded-box">
+          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -402,7 +385,7 @@ function About() {
                   width={500}
                   height={500}
                   alt="books"
-                  className="rounded-box"
+                  className="rounded-none"
                 />
               </div>
             ))}

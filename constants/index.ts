@@ -17,12 +17,12 @@ export const howIWork = [
       "I don't fall in love with my designs. I believe in conducting intensive user testing sessions at all stages of the process and iterate as much as possible to improve the user experience.",
     icon: "/refresh.svg",
   },
-  {
-    title: "Adapt & Evolve",
-    description:
-      " As I adapted my career from architecture to UX/UI design and frontend development, I believe in constantly learning and evolving as a designer and a human being.",
-    icon: "/academic-cap.svg",
-  },
+  // {
+  //   title: "Adapt & Evolve",
+  //   description:
+  //     " As I adapted my career from architecture to UX/UI design and frontend development, I believe in constantly learning and evolving as a designer and a human being.",
+  //   icon: "/academic-cap.svg",
+  // },
 ];
 
 export const whyHireMe = [
@@ -115,144 +115,29 @@ export const homeProjects = [
   {
     title:
       "Planning Unified Journeys: Transforming Group Travel Planning with Away App",
-    image: "/away-thumbnail.png",
+    image: "/assets/thumbnails/away-thumbnail.jpg",
     link: "/work/away-travel-app",
-    github: "https://github.com/gupta-karan1/AwayApp",
-    // demo: "https://google.com",
-    tags: ["react native", "ux ui", "branding"],
+    // github: "https://github.com/gupta-karan1/AwayApp",
+    demo: "https://www.youtube.com/watch?v=1uMOE-ylnrA&t=2s",
+    // tags: ["react native", "ux ui", "branding"],
   },
   {
     title:
       "Elevating Architectural Excellence: Redefining Web Presence for ANA Design Studio Pvt Ltd",
-    image: "/ana-thumbnail.png",
+    image: "/assets/thumbnails/ana-thumbnail.jpg",
     link: "/work/ana-design-website",
     // github: "https://github.com",
     demo: "https://ana-design.com/",
-    tags: ["ux ui", "branding", "wordpress"],
+    // tags: ["ux ui", "branding", "wordpress"],
   },
   {
     title:
       "Crafting Delights Online: The Stone Bakery's Digital Rise with E-Commerce Website",
-    image: "/stone-thumbnail.png",
+    image: "/assets/thumbnails/stone-thumbnail.jpg",
     link: "/work/stone-bakery-website",
-    github: "https://github.com/gupta-karan1/the-stone-bakery",
+    // github: "https://github.com/gupta-karan1/the-stone-bakery",
     demo: "https://the-stone-bakery.vercel.app/",
-    tags: ["html5", "css", "javascript", "branding"],
-  },
-];
-
-export const allProjects = [
-  ...homeProjects,
-
-  {
-    title:
-      "Simplifying Finances: Presenting OneBill's Digital Solution for Utility Bills with Business Website",
-    image: "/onebill-thumbnail.png",
-    // link: "/work/ana-design-website",
-    // github: "https://github.com/gupta-karan1/OneBill-website",
-    demo: "https://onebill.ie/",
-    tags: ["ux ui", "branding", "html5 css"],
-  },
-  {
-    title:
-      "Empowering Students: GrangeMobile App - Your All-in-One Campus Companion",
-    image: "/grangemobile-thumbnail.png",
-    link: "https://designerkaran.notion.site/GrangeMobile-Angular15-Ionic7-Report-70a528f747a34dbab7936d79aeba49e4?pvs=4",
-    github: "https://github.com/gupta-karan1/grange-mobile-app-angular",
-    demo: "https://youtu.be/YX0SYmg0CvQ",
-    tags: ["angular", "ionic", "typescript"],
-  },
-  {
-    title:
-      "Helping You Achieve Your Fitness Goals: The Fitness Catalogue Web App",
-    image: "/exercise-thumbnail.png",
-    // link: "/work/stone-bakery-website",
-    github: "https://github.com/gupta-karan1/exercise-app-reactjs",
-    demo: "https://exercise-app-reactjs.vercel.app/",
-    tags: ["react", "javascript", "materialUI"],
-  },
-  {
-    title:
-      "Discovering the Perfect Ride for Your Trips: The Cars Catalogue Web App",
-    image: "/carhub-thumbnail.png",
-    // link: "/work/stone-bakery-website",
-    github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    demo: "https://car-showcase-app-nextjs-eta.vercel.app/",
-    tags: ["nextJS", "typescript", "tailwindCSS"],
-  },
-  {
-    title:
-      "Simplifying Architecture Visualization for Architects and Clients: ARchitect AR App",
-    image: "/ARchitecture-thumbnail.png",
-    link: "https://docs.google.com/presentation/d/1XU1wDPdi_vJ4qg5ltYMHq3HimvBLijrbPSM4k6Hf5zg/edit?usp=sharing",
-    github: "https://github.com/gupta-karan1/architect-AR-app",
-    demo: "https://www.youtube.com/watch?v=tHLQ3ksZJ1E&t=2s",
-    tags: ["unity", "augmented reality"],
-  },
-
-  {
-    title:
-      "Helping ANA Design Studio Achieve Their Business Goals: ANA Brand Brochure/Profile",
-    image: "/anaprofile-thumbnail.png",
-    link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    // demo: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
-    tags: ["graphic", "adobe cc", "branding"],
-  },
-  {
-    title:
-      "Presenting ANA Design Studio's 26+ Years of Excellence: ANA Brand Portfolio",
-    image: "/anaportfolio-thumbnail.png",
-    link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
-    tags: ["graphic", "adobe cc", "branding"],
-  },
-  {
-    title:
-      "Making Bulk Coffee Orders Easy, Authentic & Intuitive: The CoffeeHouse App",
-    image: "/coffeehouse-thumbnail.png",
-    link: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    // demo: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
-    tags: ["figma", "ux ui", "branding"],
-  },
-  {
-    title:
-      "Building a Community of Local Artists and Art Lovers: The ArtGallery App",
-    image: "/artgallery-thumbnail.png",
-    link: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    // demo: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
-    tags: ["figma", "ui design", "ux research"],
-  },
-
-  {
-    title:
-      "Communicating Architectural Ideas with Graphics: Architecture Portfolio",
-    image: "/archigraphics-thumbnail.png",
-    link: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    // demo: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
-    tags: ["architecture", "graphic", "adobe cc"],
-  },
-  {
-    title:
-      "Building & Testing a Prototype for a 2D Platform Game: Super-Doug Game",
-    image: "/superdoug-thumbnail.png",
-    link: "https://drive.google.com/file/d/17BnfCZsWcXNENBrZoPqxDP2WS24xMSyH/view?usp=sharing",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    demo: "https://www.youtube.com/watch?v=47qeDqxfN6w&t=76s",
-    tags: ["graphic", "photoshop", "unity"],
-  },
-  {
-    title:
-      "Storytelling & Gameplay in a Post-Apocalyptic World: Post-Apocalyptic Platformer Game",
-    image: "/apocalypse-thumbnail.png",
-    link: "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
-    github: "https://github.com/DarraghNolan/FirstSemesterPrototype",
-    demo: "https://dazariath.itch.io/post-apocalyptic-platformer",
-    tags: ["game-dev", "testing", "unity"],
+    // tags: ["html5", "css", "javascript", "branding"],
   },
 ];
 
@@ -260,56 +145,57 @@ export const webProjects = [
   {
     title:
       "Elevating Architectural Excellence: Redefining Web Presence for ANA Design Studio Pvt Ltd",
-    image: "/ana-thumbnail.png",
+    image: "/assets/thumbnails/ana-thumbnail.jpg",
     link: "/work/ana-design-website",
     // github: "https://github.com",
     demo: "https://ana-design.com/",
-    tags: ["ux ui", "branding", "wordpress"],
+    // tags: ["ux ui", "branding", "wordpress"],
   },
   {
     title:
       "Crafting Delights Online: The Stone Bakery's Digital Rise with E-Commerce Website",
-    image: "/stone-thumbnail.png",
+    image: "/assets/thumbnails/stone-thumbnail.jpg",
     link: "/work/stone-bakery-website",
-    github: "https://github.com/gupta-karan1/the-stone-bakery",
+    // github: "https://github.com/gupta-karan1/the-stone-bakery",
     demo: "https://the-stone-bakery.vercel.app/",
-    tags: ["html5", "css", "javascript", "branding"],
+    // tags: ["html5", "css", "javascript", "branding"],
   },
   {
     title:
       "Simplifying Finances: Presenting OneBill's Digital Solution for Utility Bills with Business Website",
-    image: "/onebill-thumbnail.png",
-    // link: "/work/ana-design-website",
-    github: "https://github.com/gupta-karan1/OneBill-website",
+    image: "/assets/thumbnails/onebill-thumbnail.jpg",
+    link: "/work/onebill-website",
+    // github: "https://github.com/gupta-karan1/OneBill-website",
     demo: "https://one-bill-website.vercel.app/",
-    tags: ["ux ui", "branding", "html5 css"],
+    // tags: ["ux ui", "branding", "html5 css"],
   },
   {
     title:
       "Attracting Customers with a Fresh New Look: Slice Cafe Dublin Website Redesign",
-    image: "/slice-thumbnail.png",
-    link: "https://designerkaran.notion.site/Slice-Caf-Dublin-Website-Redesign-129c5bb18b214afaa2c18ed6fe1f8d35?pvs=4",
+    image: "/assets/thumbnails/slice-thumbnail.jpg",
+    externalLink:
+      "https://designerkaran.notion.site/Slice-Caf-Dublin-Website-Redesign-129c5bb18b214afaa2c18ed6fe1f8d35?pvs=4",
     // github: "https://github.com/gupta-karan1/OneBill-website",
     demo: "https://www.figma.com/proto/Mwszcda939Yo7EtXedEUCQ/Slice-Web-Redesign?page-id=0%3A1&type=design&node-id=6-168&viewport=-897%2C373%2C0.2&t=QKnqAGnQUUuenuGb-1&scaling=min-zoom&starting-point-node-id=6%3A168&mode=design",
-    tags: ["ux ui", "branding", "figma"],
+    // tags: ["ux ui", "branding", "figma"],
   },
   {
     title:
       "Helping You Achieve Your Fitness Goals: The Fitness Catalogue Web App",
-    image: "/exercise-thumbnail.png",
+    image: "/assets/thumbnails/fitness-thumbnail.jpg",
     // link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/exercise-app-reactjs",
     demo: "https://exercise-app-reactjs.vercel.app/",
-    tags: ["react", "javascript", "materialUI"],
+    // tags: ["react", "javascript", "materialUI"],
   },
   {
     title:
       "Discovering the Perfect Ride for Your Trips: The Cars Catalogue Web App",
-    image: "/carhub-thumbnail.png",
+    image: "/assets/thumbnails/carhub-thumbnail.jpg",
     // link: "/work/stone-bakery-website",
     github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     demo: "https://car-showcase-app-nextjs-eta.vercel.app/",
-    tags: ["nextJS", "typescript", "tailwindCSS"],
+    // tags: ["nextJS", "typescript", "tailwindCSS"],
   },
 ];
 
@@ -317,47 +203,48 @@ export const mobileProjects = [
   {
     title:
       "Planning Unified Journeys: Transforming Group Travel Planning with Away App",
-    image: "/away-thumbnail.png",
+    image: "/assets/thumbnails/away-thumbnail.jpg",
     link: "/work/away-travel-app",
-    github: "https://github.com/gupta-karan1/AwayApp",
-    // demo: "https://google.com",
-    tags: ["react native", "ux ui", "branding"],
+    // github: "https://github.com/gupta-karan1/AwayApp",
+    demo: "https://www.youtube.com/watch?v=1uMOE-ylnrA&t=2s",
+    // tags: ["react native", "ux ui", "branding"],
   },
   {
     title:
       "Simplifying Architecture Visualization for Architects and Clients: ARchitect AR App",
-    image: "/ARchitecture-thumbnail.png",
-    link: "https://docs.google.com/presentation/d/1XU1wDPdi_vJ4qg5ltYMHq3HimvBLijrbPSM4k6Hf5zg/edit?usp=sharing",
-    github: "https://github.com/gupta-karan1/architect-AR-app",
+    image: "/assets/thumbnails/ar-app-thumbnail.jpg",
+    link: "/work/architect-ar-app",
+    // github: "https://github.com/gupta-karan1/architect-AR-app",
     demo: "https://www.youtube.com/watch?v=tHLQ3ksZJ1E&t=2s",
-    tags: ["unity", "augmented reality"],
+    // tags: ["unity", "augmented reality"],
   },
   {
     title:
       "Empowering Students: GrangeMobile App - Your All-in-One Campus Companion",
-    image: "/grangemobile-thumbnail.png",
-    link: "https://designerkaran.notion.site/GrangeMobile-Angular15-Ionic7-Report-70a528f747a34dbab7936d79aeba49e4?pvs=4",
-    github: "https://github.com/gupta-karan1/grange-mobile-app-angular",
+    image: "/assets/thumbnails/grangemobile-thumbnail.jpg",
+    externalLink:
+      "https://designerkaran.notion.site/GrangeMobile-Angular15-Ionic7-Report-70a528f747a34dbab7936d79aeba49e4?pvs=4",
+    // github: "https://github.com/gupta-karan1/grange-mobile-app-angular",
     demo: "https://youtu.be/YX0SYmg0CvQ",
-    tags: ["angular", "ionic", "typescript"],
+    // tags: ["angular", "ionic", "typescript"],
   },
   {
     title:
       "Making Bulk Coffee Orders Easy, Authentic & Intuitive: The CoffeeHouse App",
-    image: "/coffeehouse-thumbnail.png",
-    link: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    image: "/assets/thumbnails/coffeehouse-thumbnail.jpg",
+    externalLink:
+      "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
     // demo: "https://karandialogues.wordpress.com/portfolio/app-design-for-a-coffeehouse-project/",
-    tags: ["figma", "ux ui", "branding"],
+    // tags: ["figma", "ux ui", "branding"],
   },
   {
     title:
       "Building a Community of Local Artists and Art Lovers: The ArtGallery App",
-    image: "/artgallery-thumbnail.png",
-    link: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    image: "/assets/thumbnails/artgallery-thumbnail.jpg",
+    externalLink:
+      "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
     // demo: "https://karandialogues.wordpress.com/portfolio/app-design-for-the-artgallery/",
-    tags: ["figma", "ui design", "ux research"],
+    // tags: ["figma", "ui design", "ux research"],
   },
 ];
 
@@ -365,58 +252,58 @@ export const graphicProjects = [
   {
     title:
       "Helping ANA Design Studio Achieve Their Business Goals: ANA Brand Brochure/Profile",
-    image: "/anaprofile-thumbnail.png",
+    image: "/assets/thumbnails/ana-profile-thumbnail.jpg",
     // link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
     link: "/work/ana-profile",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     // demo: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
-    tags: ["graphic", "adobe cc", "branding"],
+    // tags: ["graphic", "adobe cc", "branding"],
   },
   {
     title:
       "Presenting ANA Design Studio's 26+ Years of Excellence: ANA Brand Portfolio",
-    image: "/anaportfolio-thumbnail.png",
+    image: "/assets/thumbnails/ana-portfolio-thumbnail.jpg",
     link: "/work/ana-portfolio",
     // link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
-    tags: ["editorial", "adobe cc", "branding"],
+    // tags: ["editorial", "adobe cc", "branding"],
   },
   {
     title:
       "Transforming ANA Design Studio's Business into a Brand: ANA Branding & Content Strategy",
-    image: "/ana-branding-thumbnail.png",
+    image: "/assets/thumbnails/ana-branding-thumbnail.jpg",
     link: "/work/ana-branding",
     // link: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
-    // demo: "https://drive.google.com/file/d/1cif-FBpRJKEV2oBdfxccJo_BScnGLpQY/view?usp=sharing",
-    tags: ["content", "adobe cc", "branding"],
+    // tags: ["content", "adobe cc", "branding"],
   },
   {
     title:
       "Communicating Architectural Ideas with Graphics: Architecture Portfolio",
-    image: "/archigraphics-thumbnail.png",
-    link: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
-    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    image: "/assets/thumbnails/architecture-thumbnail.jpg",
+    externalLink:
+      "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
     // demo: "https://issuu.com/clandestine2/docs/karan_architecture_portfolio_issuu",
-    tags: ["architecture", "graphic", "adobe cc"],
+    // tags: ["architecture", "graphic", "adobe cc"],
   },
   {
     title:
       "Building & Testing a Prototype for a 2D Platform Game: Super-Doug Game",
-    image: "/superdoug-thumbnail.png",
-    link: "https://drive.google.com/file/d/17BnfCZsWcXNENBrZoPqxDP2WS24xMSyH/view?usp=sharing",
+    image: "/assets/thumbnails/superdoug-thumbnail.jpg",
+    externalLink:
+      "https://drive.google.com/file/d/17BnfCZsWcXNENBrZoPqxDP2WS24xMSyH/view?usp=sharing",
     // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
     demo: "https://www.youtube.com/watch?v=47qeDqxfN6w&t=76s",
-    tags: ["graphic", "photoshop", "unity"],
+    // tags: ["graphic", "photoshop", "unity"],
   },
   {
     title:
-      "Storytelling & Gameplay in a Post-Apocalyptic World: Post-Apocalyptic Platformer Game",
-    image: "/apocalypse-thumbnail.png",
-    link: "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
-    github: "https://github.com/DarraghNolan/FirstSemesterPrototype",
+      "Storytelling in a Post-Apocalyptic World: Post-Apocalyptic Platformer Game",
+    image: "/assets/thumbnails/apocalypse-thumbnail.jpg",
+    externalLink:
+      "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
+    // github: "https://github.com/DarraghNolan/FirstSemesterPrototype",
     demo: "https://dazariath.itch.io/post-apocalyptic-platformer",
-    tags: ["game-dev", "testing", "unity"],
+    // tags: ["game-dev", "testing", "unity"],
   },
 ];

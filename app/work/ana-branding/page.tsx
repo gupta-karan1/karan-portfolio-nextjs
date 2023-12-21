@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import Breadcrumb from "@/components/Breadcrumb";
 import { Metadata } from "next";
+import ProjectFooter from "@/components/ProjectFooter";
 
 export const metadata: Metadata = {
   title: "ANA Branding - Karan - Portfolio",
@@ -143,6 +144,8 @@ function page() {
         blurDataURL="/assets/ana-branding/branding-1.png"
         className="mb-10 w-full 2xl:max-w-7xl"
       />
+
+      <ProjectFooter />
     </main>
   );
 }

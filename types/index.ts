@@ -7,6 +7,7 @@ export const ProjectCardTypes = {
   demo: "string",
   //   tags should be an array of strings
   tags: ["string"],
+  externalLink: "string",
   // date: "string",
   // status: "string",
   // type: "string",
