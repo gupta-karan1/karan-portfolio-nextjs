@@ -297,8 +297,7 @@ export const graphicProjects = [
     // tags: ["graphic", "photoshop", "unity"],
   },
   {
-    title:
-      "Storytelling in a Post-Apocalyptic World: Post-Apocalyptic Platformer Game",
+    title: "Storytelling in a Post-Apocalyptic World: 2D Platformer Game",
     image: "/assets/thumbnails/apocalypse-thumbnail.jpg",
     externalLink:
       "https://drive.google.com/file/d/1Wh-FbDEBERIAcir0D3-R3ArbaU8Har_l/view?usp=sharing",
