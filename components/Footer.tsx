@@ -14,7 +14,7 @@ const Footer = () => {
 
         <p className="text-sm">
           Copyright © 2023 - All right reserved. Built with NextJS, TypeScript,
-          TailwindCSS, & DaisyUI.
+          TailwindCSS & DaisyUI.
         </p>
       </aside>
     </footer>

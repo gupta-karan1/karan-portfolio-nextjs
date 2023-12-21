@@ -12,7 +12,7 @@ function SelectedProjects() {
 
       <ProjectGrid projects={homeProjects} />
 
-      <Link href="/work" className="btn btn-outline ">
+      <Link href="/work" className="btn btn-accent  ">
         Explore More Projects <ArrowRightIcon className="w-5 h-5" />
       </Link>
     </section>
