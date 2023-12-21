@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { whyHireMe } from "@/constants";
-import { motion } from "framer-motion";
 import TextCard from "../TextCard";
 
 function WhyHireMe() {
@@ -16,19 +15,13 @@ function WhyHireMe() {
       <div className="flex lg:grid lg:grid-cols-3 gap-10  lg:gap-20 items-center justify-center flex-wrap ">
         {whyHireMe
           .map((item, index) => (
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              key={index}
-            >
-              <TextCard
-                key={item.title}
-                title={item.title}
-                description={item.description}
-                styles="bg-base-200 lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
-                icon={item.icon}
-              />
-            </motion.div>
+            <TextCard
+              key={item.title}
+              title={item.title}
+              description={item.description}
+              styles="bg-base-200 lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
+              icon={item.icon}
+            />
           ))
           .slice(0, showMore ? whyHireMe.length : 3)}
 

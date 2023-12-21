@@ -1,7 +1,4 @@
 import Link from "next/link";
-import React from "react";
-import LinkArrow from "./LinkArrow";
-import { AtSymbolIcon } from "@heroicons/react/20/solid";
 
 const Footer = () => {
   return (
@@ -16,8 +13,8 @@ const Footer = () => {
         </Link>
 
         <p className="text-sm">
-          Copyright © 2023 - All right reserved. Built using NextJS, Typescript,
-          TailwindCSS, FramerMotion & DaisyUI.
+          Copyright © 2023 - All right reserved. Built with NextJS, TypeScript,
+          TailwindCSS, & DaisyUI.
         </p>
       </aside>
     </footer>

@@ -92,7 +92,7 @@ const NavBar = () => {
           <div className="drawer-content">
             <label
               htmlFor="my-drawer-4"
-              className="drawer-button btn bg-base-300 lg:hidden"
+              className="drawer-button btn bg-accent rounded-none lg:hidden"
             >
               <Bars3CenterLeftIcon className="w-5 h-5 " />
             </label>

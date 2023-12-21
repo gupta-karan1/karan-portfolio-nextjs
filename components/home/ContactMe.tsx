@@ -2,7 +2,7 @@ import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
 function ContactMe() {
   return (
-    <section className="flex flex-col justify-center items-center gap-10  ">
+    <section className="flex flex-col justify-center items-center gap-10 px-5 ">
       <h2 className=" text-4xl lg:text-5xl font-semibold text-center text-primary-content">
         Say Hello 👋
       </h2>
