@@ -32,6 +32,7 @@ function AboutHero() {
             height={600}
             alt="karan"
             className="object-cover object-center"
+            loading="eager"
           />
         </figure>
       </div>
