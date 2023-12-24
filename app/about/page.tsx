@@ -180,7 +180,7 @@ function About() {
             {education.map((item, index) => (
               <div
                 key={index}
-                className="collapse collapse-plus bg-base-200 lg:w-9/12 rounded-none"
+                className="collapse shadow-xl collapse-plus bg-base-200 lg:w-9/12 rounded-none"
               >
                 <input type="checkbox" title="collapse" />
                 <div className="collapse-title text-xl font-medium">
@@ -206,7 +206,7 @@ function About() {
             {professional.map((item, index) => (
               <div
                 key={index}
-                className="collapse collapse-plus bg-base-200 lg:w-9/12 rounded-none"
+                className="collapse shadow-xl collapse-plus bg-base-200 lg:w-9/12 rounded-none"
               >
                 <input type="checkbox" title="collapse" />
                 <div className="collapse-title text-xl font-medium">
@@ -229,7 +229,7 @@ function About() {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-5 lg:px-20 px-5 ">
             {skills.map((item, index) => (
-              <div className="bg-base-200  p-10 lg:h-80" key={index}>
+              <div className="bg-base-200 shadow-xl  p-10 lg:h-80" key={index}>
                 <h2 className="lg:text-2xl mb-5">{item.title}</h2>
 
                 <div className="flex  gap-2 flex-wrap">
@@ -251,7 +251,10 @@ function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center  gap-5 lg:gap-10 lg:px-20 px-5 ">
             {reasons.map((item, index) => (
-              <div className="card bg-base-200 lg:h-80" key={index}>
+              <div
+                className="card rounded-none shadow-xl bg-base-200 lg:h-80"
+                key={index}
+              >
                 <div className="card-body  ">
                   {item.icon}
                   <h2 className="card-title">{item.title}</h2>
@@ -268,7 +271,7 @@ function About() {
             Sketching & Rendering
           </h2>
 
-          <div className="carousel rounded-none carousel-center max-w-7xl p-4 space-x-4 bg-base-200 ">
+          <div className="carousel shadow-xl rounded-none carousel-center max-w-7xl p-4 space-x-4 bg-base-200 ">
             {array.map((item, index) => (
               <div className="carousel-item rounded-none" key={index}>
                 <Image
@@ -277,6 +280,7 @@ function About() {
                   height={500}
                   alt="sketching"
                   className="rounded-none"
+                  loading="eager"
                 />
               </div>
             ))}
@@ -289,7 +293,7 @@ function About() {
             Architectural Photography
           </h2>
 
-          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
+          <div className="carousel shadow-xl carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -298,6 +302,7 @@ function About() {
                   height={500}
                   alt="Photography"
                   className="rounded-none"
+                  loading="eager"
                 />
               </div>
             ))}
@@ -315,7 +320,7 @@ function About() {
             design, architecture life, self-help, angular development,
             creativity, and ux design.
           </p>
-          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
+          <div className="carousel shadow-xl carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -324,6 +329,7 @@ function About() {
                   height={500}
                   alt="books"
                   className="rounded-none"
+                  loading="eager"
                 />
               </div>
             ))}
@@ -349,7 +355,7 @@ function About() {
             countries and 50+ cities. I believe traveling is the best way to
             learn about different cultures and people.
           </p>
-          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
+          <div className="carousel  shadow-xl carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -358,6 +364,7 @@ function About() {
                   height={500}
                   alt="books"
                   className="rounded-none"
+                  loading="eager"
                 />
               </div>
             ))}
@@ -375,7 +382,7 @@ function About() {
             others. Here are some of my favorite books.
           </p>
 
-          <div className="carousel carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
+          <div className="carousel shadow-xl carousel-center max-w-7xl p-4 space-x-4 bg-base-200 rounded-none">
             {array.map((item, index) => (
               <div className="carousel-item" key={index}>
                 <Image
@@ -384,6 +391,7 @@ function About() {
                   height={500}
                   alt="books"
                   className="rounded-none"
+                  loading="eager"
                 />
               </div>
             ))}
