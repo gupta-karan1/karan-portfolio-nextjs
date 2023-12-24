@@ -16,7 +16,7 @@ function Testimonials() {
         {testimonials
           .map((item, index) => (
             <div
-              className="card w-auto h-auto xl:h-96  bg-base-200 shadow-xl "
+              className="card rounded-none w-auto h-auto xl:h-96  bg-base-200 shadow-xl "
               key={index}
             >
               <div className="card-body justify-between">
