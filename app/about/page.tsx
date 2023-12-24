@@ -331,7 +331,7 @@ function About() {
 
           <a
             href="https://www.amazon.co.uk/Karan-Gupta/e/B08VF66J7J?ref=sr_ntt_srch_lnk_1&qid=1698246554&sr=8-1"
-            className="btn btn-primary text-white"
+            className="btn btn-accent"
             rel="noreferrer noopener"
             target="_blank"
           >

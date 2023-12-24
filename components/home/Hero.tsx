@@ -52,6 +52,7 @@ export default function Hero() {
         height={600}
         alt="karan"
         className=" shadow-xl"
+        loading="eager"
       />
     </section>
   );
