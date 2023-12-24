@@ -35,6 +35,7 @@ function page() {
         placeholder="blur"
         blurDataURL="/assets/stone-bakery/stone-hero.jpg"
         className="mb-10 w-full 2xl:max-w-7xl"
+        loading="eager"
       />
 
       <section className="max-w-3xl">

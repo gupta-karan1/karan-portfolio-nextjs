@@ -36,6 +36,7 @@ function AnaWebsiteProject() {
         placeholder="blur"
         blurDataURL="/assets/ana-website/ana-cover.jpg"
         className="mb-10 w-full 2xl:max-w-7xl"
+        loading="eager"
       />
 
       <section className="max-w-3xl">
