@@ -62,7 +62,7 @@ typeof ProjectCardTypes) => {
 
           {externalLink && (
             <Link
-              className="btn  btn-primary  btn-md"
+              className="btn  btn-accent  btn-md"
               href={externalLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +72,7 @@ typeof ProjectCardTypes) => {
           )}
 
           {link && (
-            <Link className="btn btn-primary  btn-md" href={link}>
+            <Link className="btn btn-accent  btn-md" href={link}>
               Explore
             </Link>
           )}
