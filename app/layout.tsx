@@ -1,11 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Lexend } from "next/font/google";
+import { Lexend_Deca } from "next/font/google";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import BackToTop from "@/components/BackToTop";
 
-const lexend = Lexend({
+const lexend = Lexend_Deca({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-lexend",

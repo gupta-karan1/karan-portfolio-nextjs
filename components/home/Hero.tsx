@@ -3,8 +3,8 @@ import { ArrowUpRightIcon, MapPinIcon } from "@heroicons/react/20/solid";
 
 export default function Hero() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen gap-0 lg:gap-20 place-items-center">
-      <div className="flex flex-col gap-5">
+    <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen gap-5 lg:gap-20 place-items-center mx-auto">
+      <div className="flex flex-col gap-6">
         <div className="flex items-start gap-1 ">
           <MapPinIcon className="w-5 h-5 text-accent" />
 
@@ -16,13 +16,14 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-lg xl:text-2xl  ">
-          Architect turned UX/UI Designer with a flair for Frontend Development
-          & 4 years of experience
+          I'm an architect turned UX/UI Designer & Developer with 4+ years of
+          helping businesses grow through better user experiences for their
+          digital products and web presence.
         </h2>
 
-        <h2 className="text-lg xl:text-xl  ">
-          I specialize in user-centered design, thrive in Agile environments,
-          and craft compelling brand experiences.
+        <h2 className="text-lg xl:text-xl font-light ">
+          I specialize in user-centered design, thrive in Agile environments and
+          dynamic teams, and skilled at crafting compelling brand experiences.
         </h2>
 
         <div className="flex gap-5">
@@ -51,7 +52,7 @@ export default function Hero() {
         width={600}
         height={600}
         alt="karan"
-        className=" shadow-xl"
+        className=" w-full shadow-xl"
         loading="eager"
       />
     </section>

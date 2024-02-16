@@ -3,7 +3,7 @@ import Image from "next/image";
 function AboutHero() {
   return (
     <section className="min-h-screen pt-20 px-5 pb-5 grid place-content-center">
-      <div className="p-5 lg:p-10 lg:ps-20 w-full h-full grid grid-cols-1 lg:grid-cols-2 place-content-center gap-5 lg:gap-10 2xl:gap-20">
+      <div className="p-5 lg:p-10 lg:ps-20 w-full h-full grid grid-cols-1 lg:grid-cols-2 place-content-between gap-5 lg:gap-10 2xl:gap-20">
         <div className="grid place-content-center">
           <h1 className="text-4xl xl:text-7xl font-bold text-primary  self-end">
             About Me <br />
@@ -31,7 +31,7 @@ function AboutHero() {
             width={600}
             height={600}
             alt="karan"
-            className="object-cover object-center"
+            className="w-full h-full"
             loading="eager"
           />
         </figure>

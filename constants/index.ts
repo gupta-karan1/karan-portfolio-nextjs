@@ -67,6 +67,14 @@ export const whyHireMe = [
 export const testimonials = [
   {
     description:
+      "Karan was instrumental in helping us create a clean and smooth customer journey for our website. Very creative and self motivated. We highly recommend his services and look forward to working with him again.",
+    name: "Adem Ergen",
+    designation: "Founder, OneBill Utilities, Dublin, Ireland",
+    linkedin:
+      "https://www.linkedin.com/in/ademergen?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACwDJgBlRSW8nYHJMI26BrSidZwtcTeGA0&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAkWopwSLRvCdqm3S4hqrqw%3D%3D",
+  },
+  {
+    description:
       "Karan is a sensitive thinker and designer. He is well aware of world affairs and technology. His stance towards the aspects of heritage, society and environment, are exemplary for his age. Karan has displayed inspiring teamwork and empathetic design skills.",
     name: "Prof. Saurabh Tewari",
     designation: "Assistant Professor of Design at IIT Delhi",
@@ -80,14 +88,7 @@ export const testimonials = [
     designation: "CEO, ANA Design Studio Pvt. Ltd., Delhi, India",
     linkedin: "https://in.linkedin.com/in/mohammad-amin-nayyar-75a31724",
   },
-  {
-    description:
-      "Karan was instrumental in helping us create a clean and smooth customer journey for our website. Very creative and self motivated. We highly recommend his services and look forward to working with him again.",
-    name: "Adem Ergen",
-    designation: "Founder, OneBill Utilities, Dublin, Ireland",
-    linkedin:
-      "https://www.linkedin.com/in/ademergen?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAACwDJgBlRSW8nYHJMI26BrSidZwtcTeGA0&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BAkWopwSLRvCdqm3S4hqrqw%3D%3D",
-  },
+
   {
     description:
       "Under my guidance, Karan has undertaken diverse range of responsibilities such as Content Management for company website and publications; Social Media Management & Public Relation Activities, Curation of Brand Assets through digital and print media, and many more.  I am impressed by his research and analytical skills.",
@@ -97,7 +98,7 @@ export const testimonials = [
   },
   {
     description:
-      "Karan has successfully completed 24 weeks of Architecture and Design training in our firm. He has been a quick learner and has shown great interest in learning new skills. He has been a great team player and has been able to adapt to the new environment and culture of the firm.",
+      "Karan has successfully completed 24 weeks of Design training in our firm. He has been a quick learner and has shown great interest in learning new skills. He has been a great team player and has been able to adapt to the new environment and culture of the firm.",
     name: "Julien Veyrone",
     designation: "CEO, Atelier Arcau, Vannes, France",
     linkedin: "https://www.linkedin.com/in/julienveyron//",
@@ -115,29 +116,69 @@ export const homeProjects = [
   {
     title:
       "Planning Unified Journeys: Transforming Group Travel Planning with Away App",
-    image: "/assets/thumbnails/away-thumbnail.jpg",
+    image: "/assets/away-app/away-cover.jpg",
     link: "/work/away-travel-app",
     // github: "https://github.com/gupta-karan1/AwayApp",
     demo: "https://www.youtube.com/watch?v=1uMOE-ylnrA&t=2s",
     // tags: ["react native", "ux ui", "branding"],
+    description:
+      "Away is a group travel planning app that helps users plan and organize group trips with friends and family. It was designed to simplify the process of planning group trips and to make it more fun and engaging.",
   },
   {
     title:
       "Elevating Architectural Excellence: Redefining Web Presence for ANA Design Studio Pvt Ltd",
-    image: "/assets/thumbnails/ana-thumbnail.jpg",
+    image: "/assets/ana-website/ana-cover.jpg",
     link: "/work/ana-design-website",
     // github: "https://github.com",
     demo: "https://ana-design.com/",
     // tags: ["ux ui", "branding", "wordpress"],
+    description:
+      "ANA Design Studio is an architectural firm based in Delhi, India. The website was designed to showcase their portfolio, services, and to attract new clients.",
+  },
+  {
+    title:
+      "Simplifying Finances: Presenting OneBill's Digital Solution for Utility Bills with Business Website",
+    image: "/assets/onebill-website/onebill-hero.jpg",
+    link: "/work/onebill-website",
+    // github: "https://github.com/gupta-karan1/OneBill-website",
+    demo: "https://one-bill-website.vercel.app/",
+    // tags: ["ux ui", "branding", "html5 css"],
+    description:
+      "OneBill is a utility bill management company based in Dublin, Ireland. The website was designed to introduce their SAAS product and to onboard new customers.",
   },
   {
     title:
       "Crafting Delights Online: The Stone Bakery's Digital Rise with E-Commerce Website",
-    image: "/assets/thumbnails/stone-thumbnail.jpg",
+    image: "/assets/stone-bakery/stone-hero.jpg",
     link: "/work/stone-bakery-website",
     // github: "https://github.com/gupta-karan1/the-stone-bakery",
     demo: "https://the-stone-bakery.vercel.app/",
     // tags: ["html5", "css", "javascript", "branding"],
+    description:
+      "The Stone Bakery is a local bakery in Dublin, Ireland. The website was designed to showcase their products and to allow customers to place orders online.",
+  },
+  {
+    title:
+      "Simplifying Architecture Visualization for Architects and Clients: ARchitect AR App",
+    image: "/assets/architect-ar-app/architect-hero.jpg",
+    link: "/work/architect-ar-app",
+    // github: "https://github.com/gupta-karan1/architect-AR-app",
+    demo: "https://www.youtube.com/watch?v=tHLQ3ksZJ1E&t=2s",
+    // tags: ["unity", "augmented reality"],
+    description:
+      "ARchitect is an augmented reality app that helps architects and clients visualize architectural designs in the real world. It was designed to simplify the process of visualizing architectural designs and to make it more engaging.",
+  },
+  {
+    title:
+      "Helping ANA Design Studio Achieve Their Business Goals: ANA Brand Brochure/Profile",
+    image: "/assets/ana-profile/profile-1.png",
+    // link: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
+    link: "/work/ana-profile",
+    // github: "https://github.com/gupta-karan1/car_showcaseApp-nextjs",
+    // demo: "https://drive.google.com/file/d/1LLBNmF2J5bXEHQsx4aVREuuzMKdR7qoB/view?usp=sharing",
+    // tags: ["graphic", "adobe cc", "branding"],
+    description:
+      "ANA Design Studio is an architectural firm based in Delhi, India. The brand brochure was designed to showcase their portfolio, services, and to attract new clients.",
   },
 ];
 

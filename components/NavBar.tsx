@@ -43,7 +43,7 @@ const NavBar = () => {
           </code>
         </Link>
       </div>
-      <div className="navbar-end hidden lg:flex">
+      <div className="navbar-end hidden xl:flex">
         <ul className="menu menu-horizontal px-5">
           <li>
             <Link href="/">Home</Link>
@@ -92,7 +92,7 @@ const NavBar = () => {
           <div className="drawer-content">
             <label
               htmlFor="my-drawer-4"
-              className="drawer-button btn bg-accent rounded-none lg:hidden"
+              className="drawer-button btn  xl:hidden"
             >
               <Bars3CenterLeftIcon className="w-5 h-5 " />
             </label>

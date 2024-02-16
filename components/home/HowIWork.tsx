@@ -13,7 +13,7 @@ function HowIWork() {
             key={work.title}
             title={work.title}
             description={work.description}
-            styles="bg-base-200 lg:w-96 w-auto lg:h-80 h-auto shadow-xl "
+            styles="bg-base-100 lg:w-96 w-auto lg:h-80 h-auto border "
             icon={work.icon}
           />
         ))}

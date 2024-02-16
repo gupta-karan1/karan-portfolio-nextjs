@@ -1,43 +1,33 @@
-import Image from "next/image";
+import React from "react";
 import { ProjectCardTypes } from "@/types";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
-const ProjectCard = ({
+function HomeProjectCard({
   title,
-  // description,
+  description,
   image,
   link,
   github,
   demo,
   externalLink,
 }: // tags,
-typeof ProjectCardTypes) => {
+typeof ProjectCardTypes) {
   return (
-    <div className="card  w-auto lg:w-[410px] border 2xl:w-[450px] bg-base-100 ">
-      <figure>
-        <Image
-          src={image}
-          className="bg-base-300"
-          alt="Project Placeholder"
-          width={600}
-          height={500}
-        />
-      </figure>
-      <div className="card-body gap-3 ">
-        {/* <div className="flex flex-wrap gap-1">
-          {tags.map((tag: string) => (
-            <span key={tag} className="badge font-light badge-secondary  ">
-              {tag}
-            </span>
-          ))}
-        </div> */}
+    <div className="card xl:card-side bg-base-100 border">
+      <Image
+        src={image}
+        alt="Project Image"
+        className="bg-base-300 w-auto h-auto object-cover object-center"
+        width="900"
+        height="900"
+      />
 
-        <h2 className="card-title  text-xl">{title}</h2>
-
-        {/* <p className="font-light line-clamp-5 text-sm">{description}</p> */}
-
-        <div className="card-actions justify-end mt-5 items-center">
+      <div className="card-body gap-5 ">
+        <h2 className="card-title">{title}</h2>
+        <p className="font-light">{description}</p>
+        <div className="card-actions justify-end">
           {github && (
             <Link
               className="btn  btn-outline btn-md"
@@ -80,6 +70,6 @@ typeof ProjectCardTypes) => {
       </div>
     </div>
   );
-};
+}
 
-export default ProjectCard;
+export default HomeProjectCard;

@@ -10,7 +10,7 @@ function TextCard({
   icon?: string;
 }) {
   return (
-    <div className={`card rounded-none ${styles}`}>
+    <div className={`card  ${styles}`}>
       <div className="card-body">
         {icon && <img src={icon} alt="icon" className="w-16 h-16 mb-2" />}
         <h2 className="card-title">{title}</h2>

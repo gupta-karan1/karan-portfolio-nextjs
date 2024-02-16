@@ -1,6 +1,7 @@
 import AboutHero from "@/components/about/AboutHero";
 import ContactMe from "@/components/home/ContactMe";
 import HowIWork from "@/components/home/HowIWork";
+import Skills from "@/components/home/Skills";
 import {
   AdjustmentsHorizontalIcon,
   ChatBubbleLeftRightIcon,
@@ -36,15 +37,22 @@ const professional = [
     company: "OneBill Utilities Ltd.",
     duration: "August 2023 - September 2023",
     description:
-      "Designed & developed business website with 5+ responsive pages & onboarding form for introducing MVP to the market by understanding client requirements (short deadline & mobile responsive) with HTML, JS & Bootstrap. Implemented SEO best practices with keywords and meta description.",
+      "Led the design and development of the business website to promote utility software, achieving 30% enhancement in mobile responsiveness, 25% reduction in bounce rates and 20% rise in user engagement. Implemented SEO best practices with meta tags, keywords, and accessibility, gaining a 95+ score on PageSpeed insights by Google, driving a 870% surge in search traffic within two months post-launch. Developed a user-friendly onboarding form, leading to a 20% increase in completion rates and facilitating the successful MVP introduction within a short deadline.",
   },
-  // {
-  //   title: "Retail Assistant",
-  //   company: "Londis Parkgate Street",
-  //   duration: "July 2023 - Present",
-  //   description:
-  //     "Offering efficient and friendly customer service at the till, handling over 1,000+ transactions & 5000-euro sales/daily, enhancing customer satisfaction and repeat business. Managing stock levels by monitoring 200+ inventory items, restocking items, and organizing displays to enhance the shopping environment. ",
-  // },
+  {
+    title: "UX/UI Designer",
+    company: "S.K. PERIPHERALS",
+    duration: "August 2023 - February 2024",
+    description:
+      "Led the UX/UI design of inventory management software streamlining business operations and saving 40% time on tracking deliveries and inventory. Conducted journey mapping to identify pain points in deliveries and orders leading to 60% rise in user satisfaction. Created wireframes & prototypes in Figma to resolve complex design problems reducing development time by 40%.",
+  },
+  {
+    title: "UX/UI Designer & Developer",
+    company: "SMART WEB SOLUTIONS",
+    duration: "August 2023 - September 2023",
+    description:
+      "Led the end-to-end UX design process for real estate client websites by increasing user engagement by 35%. Crafted low & high fidelity wireframes and prototypes in Figma to improve design communication by 70%. Conducted remote usability testing and user research to guide & iterate designs raising stakeholder buy-in by 40%. Implemented SEO best practices & performance optimisation on websites leading to 200% increase in monthly visits.",
+  },
   {
     title: "UX/UI Designer & Project Architect",
     company: "ANA Design Studio Pvt Ltd, Delhi, India ",
@@ -53,7 +61,7 @@ const professional = [
       " Redesigned and revamped company website twice with WordPress, resulting in 2,000+ avg monthly views and improved SEO for client, employee, and stakeholder attraction. Conducted extensive market research and user interviews to inform brand strategy, collaterals, and website development. Enhanced brand visibility on LinkedIn from 2,000 to 7,500 followers through a comprehensive strategy involving PR, social media, and email newsletters. Influenced user-centric design for 20+ architectural projects, coordinating with diverse professional teams in Agile project planning for 50,000sqm+ projects. Pioneered a modern graphical language for the company's project portfolio, refurbishing 100+ projects with clear and informative content. Illustrated 300+ architectural drawings into visually compelling diagrams for various platforms. Composed 35+ award submissions, contributing to winning 15+ national awards and securing speaker opportunities. Improved video content with 15+ interactive walkthroughs for immersive project pitches. Prepared detailed 100+ page project reports, presenting design decisions to both internal and external stakeholders.",
   },
   {
-    title: "Visual Designer & Architecture Journalist/PR",
+    title: "Digital Designer",
     company: "Creative Group LLP, Delhi, India",
     duration: "June 2019 - February 2020",
     description:
@@ -65,61 +73,6 @@ const professional = [
     duration: "January 2018 - July 2018",
     description:
       " Co-authored with 3 architecture design teams in the curation of 30+ design presentations, 100+ concept diagrams, 3+ physical models, 20+ digital models, and 100+ renderings of urban projects. Corresponded with the communications manager in designing 15+ brand collaterals with brand guidelines, including 3+ interior space branding concepts and 12+ architectural graphics for publications. Designed 50+ wireframes & mockups for design solutions with Photoshop & Illustrator, and received feedback from team members, showcasing the ability to ideate, & iterate for continuous improvement.",
-  },
-];
-
-const skills = [
-  {
-    title: "Technical Skills",
-    list: [
-      "Figma",
-      "Adobe PhotoShop",
-      "Adobe InDesign",
-      "Adobe Illustrator",
-      "Adobe XD",
-      "WordPress",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "jQuery",
-      "Bootstrap",
-      "Angular",
-      "Ionic",
-      "React",
-      "React Native",
-      "NextJS",
-      "TailwindCSS",
-      "MongoDB",
-      "Firebase",
-      "TypeScript",
-      "DaisyUI",
-      "Material UI",
-      "Agile",
-      "Scrum",
-      "Git",
-      "GitHub",
-      "Trello",
-    ],
-  },
-  {
-    title: "Non-Technical Skills",
-    list: [
-      "User Research",
-      "User Centred Design",
-      "User Testing",
-      "Wireframing",
-      "Prototyping",
-      "Information Architecture",
-      "Interaction Design",
-      "Visual Design",
-      "Journey Mapping",
-      "Content Writing",
-      "Critical Thinking",
-      "Problem Solving",
-      "Communication",
-      "Empathy",
-      "Attention to Detail",
-    ],
   },
 ];
 
@@ -180,7 +133,7 @@ function About() {
             {education.map((item, index) => (
               <div
                 key={index}
-                className="collapse shadow-xl collapse-plus bg-base-200 lg:w-9/12 rounded-none"
+                className="collapse border collapse-plus bg-base-100 lg:w-9/12 "
               >
                 <input type="checkbox" title="collapse" />
                 <div className="collapse-title text-xl font-medium">
@@ -206,7 +159,7 @@ function About() {
             {professional.map((item, index) => (
               <div
                 key={index}
-                className="collapse shadow-xl collapse-plus bg-base-200 lg:w-9/12 rounded-none"
+                className="collapse border collapse-plus bg-base-100 lg:w-9/12 "
               >
                 <input type="checkbox" title="collapse" />
                 <div className="collapse-title text-xl font-medium">
@@ -222,28 +175,9 @@ function About() {
           </div>
         </div>
       </section>
-      <section>
-        <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 ">
-          <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
-            My Professional Skills
-          </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-5 lg:px-20 px-5 ">
-            {skills.map((item, index) => (
-              <div className="bg-base-200 shadow-xl  p-10 lg:h-80" key={index}>
-                <h2 className="lg:text-2xl mb-5">{item.title}</h2>
 
-                <div className="flex  gap-2 flex-wrap">
-                  {item.list.map((item, index) => (
-                    <span className="badge badge-lg badge-accent " key={index}>
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Skills />
+
       <section>
         <div className=" min-h-screen flex flex-col justify-center items-center gap-10 py-10 px-5 ">
           <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
@@ -251,10 +185,7 @@ function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center  gap-5 lg:gap-10 lg:px-20 px-5 ">
             {reasons.map((item, index) => (
-              <div
-                className="card rounded-none shadow-xl bg-base-200 lg:h-80"
-                key={index}
-              >
+              <div className="card border bg-base-100 lg:h-80" key={index}>
                 <div className="card-body  ">
                   {item.icon}
                   <h2 className="card-title">{item.title}</h2>
