@@ -61,7 +61,7 @@ function Skills() {
         <h2 className=" text-4xl lg:text-5xl font-semibold text-center ">
           Professional Skills
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-5 lg:px-20 px-5 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-20">
           {skills.map((item, index) => (
             <div className="bg-base-100 border p-10 lg:h-80" key={index}>
               <h2 className="lg:text-2xl mb-5">{item.title}</h2>

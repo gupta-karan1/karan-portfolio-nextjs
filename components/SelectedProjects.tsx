@@ -16,7 +16,7 @@ function SelectedProjects() {
 
       <HomeProjectGrid projects={homeProjects} />
 
-      <Link href="/work" className="btn btn-accent btn-lg ">
+      <Link href="/work" className="btn btn-accent btn-lg mt-10 mb-10 w-full">
         Explore All Projects <ArrowRightIcon className="w-5 h-5" />
       </Link>
     </section>
