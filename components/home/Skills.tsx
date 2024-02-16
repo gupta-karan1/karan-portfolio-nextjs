@@ -27,7 +27,6 @@ const skills = [
       "Material UI",
       "Agile",
       "Scrum",
-      "Git",
       "GitHub",
       "Trello",
     ],
