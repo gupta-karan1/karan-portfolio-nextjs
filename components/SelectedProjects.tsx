@@ -1,8 +1,7 @@
 import Link from "next/link";
-import ProjectGrid from "@/components/ProjectGrid";
 import { homeProjects } from "@/constants";
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
-import HomeProjectCard from "@/components/HomeProjectCard";
+
 import HomeProjectGrid from "./HomeProjectGrid";
 
 function SelectedProjects() {
